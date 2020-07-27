@@ -4,23 +4,22 @@ for
 
 ## Construction within the 500 foot critical zone landward of Kansas River Levee System Station 391+00, 872 Oak Street Lawrence, Kansas
 
-Geotechnical Engineering Report
+_Geotechnical Engineering Report_
 
-Prepared by:
-
-David Clark and Nathan Clark
-January 21, 2014
+Prepared by:  
+David Clark and Nathan Clark  
+July 28, 2020
 
 
 ### Project Information and Observations
 
 #### Overview
 
-The single-family residence planned for 872 Oak Street will consist of a 2,400 square foot two-story house, with a basement. The project site, located in the City of Lawrence, Douglas County, Kansas, was historically used for agriculture. No trees exist on the property.
+The development planned for 872 Oak Street will consist of a below ground swimming pool. The project site, located in the City of Lawrence, Douglas County, Kansas, was historically used for agriculture, and has one existing house with a basement. A few trees exist on the property. Some smaller fruit trees will be removed, but the larger shade trees will remain. The project layout is illustrated on Sheet 1, included in Appendix A.
 
 #### Construction
 
-Construction will begin in the spring of 2014 and continue through the summer of 2015. Specific construction activities covered in this report are a basement excavation with a footprint of approximately 1,747 square feet. While the overall project duration is drawn out, the periods during which subsurface excavation activities will occur is no greater than four weeks. Site grading will be limited to that required directly adjacent to new structures for positive drainage.
+Construction will begin in the spring of 2021 and continue through the summer of 2021. Specific construction activities covered in this report are a pool excavation with a footprint of approximately 2,828 square feet. The periods during which subsurface excavation activities will occur is no greater than 2 weeks.
 
 #### Kansas River Levee Station
 
@@ -40,9 +39,11 @@ The property lies in Zone X of the FEMA - Flood Insurance Rate Map (FIRM). Zone 
 
 #### Excavations
 
-The excavations at the closest point are approximately 140’ from the toe and 160’ from the top of the Kansas River levee, with surface elevations between 6 and 7 feet below the top of the levee. The top of the levee is approximately 828.00 feet asl and the ground surface elevation along the landward toe of the levee is approximately 824.00 feet asl.
+The excavations at the closest point are approximately 140’ from the toe and 160’ from the top of the Kansas River levee, with surface elevations between 6 and 7 feet below the top of the levee. The top of the levee is approximately 828.00 feet above sea level and the ground surface elevation along the landward toe of the levee is approximately 824.00 feet above sea level.
 
 > Source: _USACE Lawrence, Kansas Operation and Maintenance Manual - Plan, Profile and Underground Explorations Sta. 346+00 to Sta. 402+00_ dated May 1969.
+
+### Subsurface Conditions
 
 #### Soils Information
 
@@ -78,9 +79,9 @@ Kansas River information was obtained from the National Oceanic and Atmospheric 
 
 The most recent water surface elevation at the Kansas River gauge in Lawrence at the time of this report (July 28, 2020) indicated a stage of 13.71 feet with the gauge base elevation at 799.86 feet. The gauge is located at the Highway 59 Bridge connecting 6th and Massachusetts Streets to North Second Street just upstream of the Bowerstock Dam.  
 
-> Source: [http://water.weather.gov/ahps2/hydrograph.php?wfo=top&gage=lwrk1](http://water.weather.gov/ahps2/hydrograph.php?wfo=top&gage=lwrk1)
+> Source: Hydrograph for Kansas River at Lawrence Flood Stage Guage [http://water.weather.gov/ahps2/hydrograph.php?wfo=top&gage=lwrk1](http://water.weather.gov/ahps2/hydrograph.php?wfo=top&gage=lwrk1)
 
-The Kansas River normal water elevation below the Bowersock Dam adjacent to the site may vary from 790 to 800 feet asl. 
+The Kansas River normal water elevation below the Bowersock Dam adjacent to the site may vary from 790 to 800 feet above sea level. 
 
 While this gauge is upstream of the project, the uniform cross-section of the river would indicate that the relative depth of the flood water to height of levee would be equivalent to the section at the project location.  Based on relative elevation of the project site, Kansas River flood stage would need to be at 29 feet to recognize a groundwater elevation equivalent to the lowest point on the crest of the project site levee.
 
@@ -94,18 +95,18 @@ While this gauge is upstream of the project, the uniform cross-section of the ri
 * **18 feet:** Lowlands outside of the levee on the north side of the river begin to flood. Burcham Park is closed due to flooding on the south side of the river.
 * **15 feet:** Burcham Park on the south side of the river begins to flood.
 
-> Source: [http://water.weather.gov/ahps2/hydrograph.php?wfo=top&gage=lwrk1](http://water.weather.gov/ahps2/hydrograph.php?wfo=top&gage=lwrk1)
+> Source: Hydrograph for Kansas River at Lawrence Flood Stage Guage [http://water.weather.gov/ahps2/hydrograph.php?wfo=top&gage=lwrk1](http://water.weather.gov/ahps2/hydrograph.php?wfo=top&gage=lwrk1)
 
 #### Ground Water Observations
 
-Ground water levels were estimated based on information provided in Soil Survey of Douglas County, Kansas. Groundwater elevations and fluctuations for the Eudora-Kimo complex are outlined in the Soil Survey. Seasonal high water tables are more apparent in the months from March to June with elevations generally being greater than six feet below ground surface.  No physical groundwater levels were determined for this report.
+Ground water levels were estimated based on information provided in the United States Department of Agriculture's _Soil Survey of Douglas County, Kansas_ dated 1973. Groundwater elevations and fluctuations for the Eudora-Kimo complex are outlined in the Soil Survey. Seasonal high water tables are more apparent in the months from March to June with elevations generally being greater than six feet below ground surface.  No physical groundwater levels were determined for this report.
 
-At this project location, the ground surface varies from approximately 5 to 8 feet below the top of the levee.  Assuming fully saturated soil with groundwater up to the surface, the groundwater at the project site would be at the ground surface adjacent to the levee or an elevation of 821.00 feet asl.
+At this project location, the ground surface varies from approximately 5 to 8 feet below the top of the levee.  Assuming fully saturated soil with groundwater up to the surface, the groundwater at the project site would be at the ground surface adjacent to the levee or an elevation of 821.00 feet above sea level.
 
-> Source: [http://www.nrcs.usda.gov/Internet/FSE_MANUSCRIPTS/kansas/douglasKS1977/douglas.pdf](http://www.nrcs.usda.gov/Internet/FSE_MANUSCRIPTS/kansas/douglasKS1977/douglas.pdf)
+> Source: _Soil Survey of Douglas County, Kansas_ [http://www.nrcs.usda.gov/Internet/FSE_MANUSCRIPTS/kansas/douglasKS1977/douglas.pdf](http://www.nrcs.usda.gov/Internet/FSE_MANUSCRIPTS/kansas/douglasKS1977/douglas.pdf)
 
-> Source: [http://bit.ly/1bNm0B2](http://bit.ly/1bNm0B2)
+> Source: USGS Surface Water Site: 06891080 KANSAS R AT LAWRENCE, KS [https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=06891080](https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=06891080)
 
-> Source: [http://nwis.waterdata.usgs.gov/usa/nwis/gwlevels/?site_no=385841095124901](http://nwis.waterdata.usgs.gov/usa/nwis/gwlevels/?site_no=385841095124901)
+> Source: _USGS Groundwater levels for the Nation_ at the Douglas County, Kansas site [http://nwis.waterdata.usgs.gov/usa/nwis/gwlevels/?site_no=385841095124901](http://nwis.waterdata.usgs.gov/usa/nwis/gwlevels/?site_no=385841095124901)
 
 
