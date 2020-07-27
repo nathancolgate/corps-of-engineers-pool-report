@@ -83,8 +83,6 @@ The most recent water surface elevation at the Kansas River gauge in Lawrence at
 
 The Kansas River normal water elevation below the Bowersock Dam adjacent to the site may vary from 790 to 800 feet above sea level. 
 
-While this gauge is upstream of the project, the uniform cross-section of the river would indicate that the relative depth of the flood water to height of levee would be equivalent to the section at the project location.  Based on relative elevation of the project site, Kansas River flood stage would need to be at 29 feet to recognize a groundwater elevation equivalent to the lowest point on the crest of the project site levee.
-
 #### Kansas River Flood Impacts
 
 * **34 feet:** Flood waters reach the top of the levee on north side of the river.
@@ -96,6 +94,8 @@ While this gauge is upstream of the project, the uniform cross-section of the ri
 * **15 feet:** Burcham Park on the south side of the river begins to flood.
 
 > Source: Hydrograph for Kansas River at Lawrence Flood Stage Guage [http://water.weather.gov/ahps2/hydrograph.php?wfo=top&gage=lwrk1](http://water.weather.gov/ahps2/hydrograph.php?wfo=top&gage=lwrk1)
+
+While the Kansas River at Lawrence Flood Stage Gauge is upstream of the project, the uniform cross-section of the river would indicate that the relative depth of the flood water to height of levee would be equivalent to the section at the project location.  Based on relative elevation of the project site, Kansas River flood stage would need to be at 29 feet to recognize a groundwater elevation equivalent to the lowest point on the crest of the project site levee.
 
 #### Ground Water Observations
 
