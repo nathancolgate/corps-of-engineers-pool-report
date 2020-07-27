@@ -110,3 +110,19 @@ At this project location, the ground surface varies from approximately 5 to 8 fe
 > Source: _USGS Groundwater levels for the Nation_ at the Douglas County, Kansas site [http://nwis.waterdata.usgs.gov/usa/nwis/gwlevels/?site_no=385841095124901](http://nwis.waterdata.usgs.gov/usa/nwis/gwlevels/?site_no=385841095124901)
 
 
+
+#### Valve
+
+> Self-contained unit has a built-in collector tube
+> Installs directly into the pool finish with no additional plumbing connection required
+> Helps prevent swimming pool damage due to hydrostatic pressure beneath the pool shell 
+when pool is drained
+
+https://www.aquastarpoolproducts.com/ItemCatalog/FittingSelf-Contained-Hydrostatic-Valve-Assembly
+
+> This assembly is normally placed in and extending below the main drain sump to relieve the hydrostatic pressure under the pool shell. This assembly consists of an ABS hydrostatic relief valve, brass no leak flange, and a pebble and gravel stopper. Complete assembly consists of: (1) P095130 / 2″ ABS hydrostatic relief valve; (1) P097110 / 2″ FIP brass no leak flange; (1) P095260 / 2″ PVC pebble and gravel stopper
+
+https://www.swimtime.com/product/hydrostatic-relief-valve-assembly-2/
+
+
+
