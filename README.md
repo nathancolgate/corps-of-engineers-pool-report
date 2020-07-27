@@ -57,12 +57,12 @@ The uppermost soil stratum at the site is classified by the Soil Survey and the 
 > Source: Sheet Number 3 of the _USACE Lawrence, Kansas Operation and Maintenance Manual - Plan, Profile and Underground Explorations Sta. 346+00 to Sta. 402+00_ dated May 1969.
 
 ![Boring Plan](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/boring_plan.png)
-<small>_Figure: Plan of boring sites. Relevant borings highlighted in red and blue. Site highlighted in green._</small>
+<small>_Figure: Plan of boring sites. Relevant borings highlighted in blue (D-77) and red (D-78). Project site highlighted in green._</small>
 
 <small>![Cross Section of Levee](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/boring_elevations.png)
-_Figure: Elevation of boring sites. Relevant borings highlighted in red and blue._</small>
+_Figure: Elevation of boring sites. Relevant borings highlighted in in blue (D-77) and red (D-78)._</small>
 
-This soil horizon varies in thickness but average in depth of 16 to 24 feet and greater. For the purpose of this analysis, the blanket thickness has been estimated at 20 feet, with a bottom elevation of 804.00. This is an average of the observed blanket thickness of the borings taken at STA 385+10 (16 feet) and STA 394+10 (24 feet).
+This soil horizon varies in thickness but average in depth of 16 to 24 feet and greater. For the purpose of this analysis, the blanket thickness has been estimated at 20 feet, with a bottom elevation of 804.00. This is an average of the observed blanket thickness of boring D-77 at STA 385+10 (16 feet) and boring D-78 at STA 394+10 (24 feet).
 
 #### Natural Foundation
 
@@ -70,7 +70,7 @@ The underlying soils for the project site are classified by the Soil Survey as s
 
 > Source: _USACE Lawrence, Kansas Operation and Maintenance Manual - Plan, Profile and Underground Explorations Sta. 346+00 to Sta. 402+00_ dated May 1969.
 
-> Source: Boring D-50 Sta. 376 100’ L: Shale (Tor) at 768.60 feet.
+> Source: Boring D-50 at STA 376 100' L: Shale (Tor) at 768.60 feet.
 
 #### Kansas River Observations
 
