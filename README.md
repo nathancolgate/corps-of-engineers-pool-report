@@ -39,10 +39,10 @@ The property lies in Zone X of the FEMA - Flood Insurance Rate Map (FIRM). Zone 
 
 #### Excavations
 
-The excavations at the closest point are approximately 140’ from the toe and 160’ from the top of the Kansas River levee, with surface elevations between 6 and 7 feet below the top of the levee. The top of the levee is approximately 828.00 feet above sea level and the ground surface elevation along the landward toe of the levee is approximately 824.00 feet above sea level.
+The excavations at the closest point are approximately 30' from the toe and 50' from the top of the Kansas River levee, with surface elevations between 6 and 7.5 feet below the top of the levee. The top of the levee is approximately 828.0 feet above sea level and the ground surface elevation along the landward toe of the levee is approximately 822.0 feet above sea level.
 
 ![Site Elevations](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/site_elevations.jpg)
-<small>_Figure: Site Elevations. Left: Two foot interval county wide contours for Douglas County, Kansas derived from the 2015 Kansas state-wide LiDAR project. Right: Half foot interval survey taken on site July 28, 2020 with location of proposed below ground swimming pool outlined in gray._</small>
+<small>_Figure: Existing Site Elevations. Left: Two foot interval county wide contours for Douglas County, Kansas derived from the 2015 Kansas state-wide LiDAR project. Right: Half foot interval survey taken on site July 28, 2020 with location of proposed below ground swimming pool outlined in gray._</small>
 
 > Source: _Contours generated from the 2015 LiDAR dataset_ [https://lawrenceks.maps.arcgis.com/home/item.html?id=b656441b7b5744a18768087624bef4ff](https://lawrenceks.maps.arcgis.com/home/item.html?id=b656441b7b5744a18768087624bef4ff)
 
