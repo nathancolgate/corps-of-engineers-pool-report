@@ -39,9 +39,9 @@ The property lies in Zone X of the FEMA - Flood Insurance Rate Map (FIRM). Zone 
 
 #### Excavations
 
-The excavations at the closest point are approximately 32' from the toe and 52' from the top of the Kansas River levee, with surface elevations between 6 and 7.5 feet below the top of the levee. The top of the levee is approximately 828.0 feet above sea level and the ground surface elevation along the landward toe of the levee is approximately 822.0 feet above sea level.
+The excavations at the closest point are approximately 31' from the toe and 51' from the top of the Kansas River levee, with surface elevations between 6 and 7.5 feet below the top of the levee. The top of the levee is approximately 828.3 feet above sea level and the ground surface elevation along the landward toe of the levee is approximately 822.3 feet above sea level.
 
-![Site Excavations](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/excavation_detail.jpg)
+![Site Excavations](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/excavation_detail.png)
 <small>_Figure: Excavation detail._</small>
 
 ![Site Elevations](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/site_elevations.jpg)
