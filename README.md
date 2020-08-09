@@ -51,6 +51,9 @@ The excavations at the closest point are approximately 31' from the toe and 51' 
 
 > Source: _USACE Lawrence, Kansas Operation and Maintenance Manual - Plan, Profile and Underground Explorations Sta. 346+00 to Sta. 402+00_ dated May 1969.
 
+![Riverside Blanket](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/riverside_blanket.png)
+<small>_Figure: Actual length of the riverside natural blanket_</small>
+
 ### Subsurface Conditions
 
 #### Soils Information
@@ -68,10 +71,31 @@ The uppermost soil stratum at the site is classified by the Soil Survey and the 
 ![Boring Plan](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/boring_plan.png)
 <small>_Figure: Plan of boring sites. Relevant borings highlighted in blue (D-77) and red (D-78). Project site highlighted in green._</small>
 
-<small>![Cross Section of Levee](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/boring_elevations.png)
-_Figure: Elevation of boring sites. Relevant borings highlighted in in blue (D-77) and red (D-78)._</small>
+![Cross Section of Levee](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/boring_elevations.png)
+<small>_Figure: Elevation of boring sites. Relevant borings highlighted in in blue (D-77) and red (D-78)._</small>
 
 This soil horizon varies in thickness but average in depth of 16 to 24 feet and greater. For the purpose of this analysis, the blanket thickness has been estimated at 20 feet, with a bottom elevation of 804.00. This is an average of the observed blanket thickness of boring D-77 at STA 385+10 (16 feet) and boring D-78 at STA 394+10 (24 feet).
+
+#### Natural Blanket Saturated Conductivity
+
+| Description     |  Value | UOM     |
+|-----------------|-------|---------|
+| Sand            | 29.70 | cm/hour |
+| Loamy Sand      | 14.60 | cm/hour |
+| Sandy Loam      | 4.42  | cm/hour |
+| Loamy Sand      | 1.04  | cm/hour |
+| Silt            | 0.25  | cm/hour |
+| Silt Loam       | 0.45  | cm/hour |
+| Sandy Clay Loam | 1.31  | cm/hour |
+| Clay Loam       | 0.26  | cm/hour |
+| Silty Clay Loam | 0.07  | cm/hour |
+| Sandy Clay      | 0.12  | cm/hour |
+| Silty Clay      | 0.02  | cm/hour |
+| Clay            | 0.20  | cm/hour |
+
+> Source: _Typical parameter values of van Genuchten models for different soil texture classes (from Leij, Alves, and van Genuchten, 1996)_ [http://soilphysics.okstate.edu/software/water/conductivity.html](http://soilphysics.okstate.edu/software/water/conductivity.html)
+
+The saturated conductivity of Silt Loam (ML) and Silty Clay Loam (CL) is between 0.45 and 0.07 cm/hour. However, an on-site percolation test was conducted at a depth of 3 feet, and found the soil to have a rate of 3.81 cm/hour (more akin to sandy loam soil). For this analysis, the conductivity of loamy sand (1.04 cm/hour) will be used for the vertical permeability of the impervious natural blanket.
 
 #### Natural Foundation
 
@@ -119,28 +143,28 @@ At this project location, the ground surface varies from approximately 5 to 8 fe
 
 ## Table 1: Hydraulic Gradient
 
-| Description                                                                                                                                | Symbol | Value    | UOM      | Source                                                            |   |   |
-|--------------------------------------------------------------------------------------------------------------------------------------------|--------|----------|----------|-------------------------------------------------------------------|---|---|
-| Elevation of top of levee                                                                                                                  | Elevee | 828.00   | ft       |                                                                   |   |   |
-| Elevation of landward toe of levee                                                                                                         | Etoe   | 824.00   | ft       |                                                                   |   |   |
-| Elevation of bottom of natural blanket                                                                                                     | Eb     | 804.00   | ft       |                                                                   |   |   |
-| Elevation of bottom of natural foundation                                                                                                  | Ef     | 769.00   | ft       |                                                                   |   |   |
-| Permeability ratio between horizontal permeability of the permeable foundation and vertical permeability of the impervious natural blanket | kf/kb  | 400.00   | unitless | USACE Manual - Assumed permeability for ML-CL blanket material    |   |   |
-| Total head on levee                                                                                                                        | H      | 4.00     | ft       | Elevee - Etoe                                                     |   |   |
-| Thickness of Natural Blanket                                                                                                               | Db     | 20.00    | ft       | Etoe - Eb                                                         |   |   |
-| Thickness of Foundation Sands                                                                                                              | Df     | 35.00    | ft       | Eb - Ef                                                           |   |   |
-| Effective length of the pervious foundation of infinite length covered by a natural impervious blanket                                     | C      | 529.15   | ft       | USACE Calculation:                                                |   |   |
-| Actual length of the landside natural blanket                                                                                              | LL     | infinite | ft       |                                                                   |   |   |
-| Distance from the landside toe of the assumed impervious section to the effective seepage exit                                             | Le     | 529.15   | ft       | USACE Manual: C when LL is infinite                               |   |   |
-| Actual length of the riverside natural blanket                                                                                             | LR     | 350.00   | ft       | Kansas River riverside blanket exposure to riverside of the levee |   |   |
-| Effective length of the riverside blanket                                                                                                  | L1     | 306.55   | ft       | USACE Calculation:                                                |   |   |
-| Base width of the assumed impervious fill and natural blanket beneath it.                                                                  | L2     | 90.00    | ft       |                                                                   |   |   |
-| Head above tailwater at landside levee toe (in sands)                                                                                      | ho     | 2.29     | ft       | USACE Calculation:                                                |   |   |
-| Elevation of head above tailwater at landside levee toe (in sands)                                                                         |        | 826.29   | ft       | Eb + Db + ho                                                      |   |   |
-| Location where uplift has to be calculated                                                                                                 | x      | 140.00   | ft       |                                                                   |   |   |
-|                                                                                                                                            | xL     | 529.15   | ft       | USACE Manual: Le                                                  |   |   |
-| Head above tailwater at project location (in sands)                                                                                        | hx     | 1.75     | ft       | USACE Calculation:                                                |   |   |
-| Elevation of head above tailwater at project location (in sands)                                                                           |        | 825.75   | ft       | Eb + Db + ho                                                      |   |   |
+| Description                                                                                                                                | Symbol | Value    | UOM      | Source                                                            |
+|--------------------------------------------------------------------------------------------------------------------------------------------|--------|----------|----------|-------------------------------------------------------------------|
+| Elevation of top of levee                                                                                                                  | E<sub>levee</sub> | 828.3   | ft       | Excavation Observations Above |
+| Elevation of landward toe of levee                                                                                                         | E<sub>toe</sub>   | 822.3   | ft       | Excavation Observations Above |
+| Elevation of bottom of natural blanket                                                                                                     | E<sub>b</sub>     | 804.0   | ft       | Natural Blanket Observations Above |
+| Elevation of bottom of natural foundation                                                                                                  | E<sub>f</sub>     | 769.0   | ft       | Natural Foundation Observations Above |
+| Permeability ratio between horizontal permeability of the permeable foundation and vertical permeability of the impervious natural blanket | k<sub>f</sub>/k<sub>b</sub>  | 100 | unitless | USACE Manual - Assumed permeability for SM blanket material    |   |   |
+| Total head on levee                                                                                                                        | H      | 6.00     | ft       | E<sub>levee</sub> - E<sub>toe</sub>                                                     |
+| Thickness of Natural Blanket                                                                                                               | D<sub>b</sub>     | 18.3    | ft       | E<sub>toe</sub> - E<sub>b</sub>                                                        |
+| Thickness of Foundation Sands                                                                                                              | D<sub>f</sub>     | 35.00    | ft       | E<sub>b</sub> - E<sub>f</sub>                                                           |
+| Effective length of the pervious foundation of infinite length covered by a natural impervious blanket                                     | C      | 253.1 | ft       | USACE Calculation: ![Cross Section of Levee](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/calcs/c.png) |
+| Actual length of the landside natural blanket                                                                                              | L<sub>L</sub>     | infinite | ft       |                                                                   |
+| Distance from the landside toe of the assumed impervious section to the effective seepage exit                                             | L<sub>e</sub>     | 253.1   | ft       | USACE Manual: C when L<sub>L</sub> is infinite                               |
+| Actual length of the riverside natural blanket                                                                                             | L<sub>R</sub>     | 386.5   | ft       | Kansas River riverside blanket exposure to riverside of the levee |
+| Effective length of the riverside blanket                                                                                                  | L<sub>1</sub>     | 306.55   | ft       | USACE Calculation: ![Cross Section of Levee](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/calcs/l1.png) |
+| Base width of the assumed impervious fill and natural blanket beneath it.                                                                  | L<sub>2</sub>     | 90.00    | ft       |                                                                   |
+| Head above tailwater at landside levee toe (in sands)                                                                                      | h<sub>o</sub>     | 2.29     | ft       | USACE Calculation: ![Cross Section of Levee](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/calcs/ho.png) |
+| Elevation of head above tailwater at landside levee toe (in sands)                                                                         |        | 826.29   | ft       | E<sub>b</sub> + D<sub>b</sub> + h<sub>o</sub>                                                      |
+| Location where uplift has to be calculated                                                                                                 | x      | 140.00   | ft       |                                                                   |
+|                                                                                                                                            | x<sub>L</sub>     | 529.15   | ft       | USACE Manual: L<sub>e</sub>                                                  |
+| Head above tailwater at project location (in sands)                                                                                        | h<sub>x</sub>     | 1.75     | ft       | USACE Calculation: ![Cross Section of Levee](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/calcs/hx.png) |
+| Elevation of head above tailwater at project location (in sands)                                                                           |        | 825.75   | ft       | E<sub>b</sub> + D<sub>b</sub> + h<sub>o</sub>                                                      |
 
 This analysis was performed to determine the head above tailwater or hydraulic gradient at the point of excavations with respect to the levee. Using the equations outlined on the USACE guidance document within the Underseepage section.
 
@@ -161,6 +185,74 @@ Per USACE requirements, the factor of safety must be a minimum of 1.5 at the bot
 | Piping factor of safety                                             | F<sub>s</sub>     | 1.59    | unitless | USACE Calculation: |
 
 While the piping factor of safety exceeds USACE requirements, it is recommended that contractors keep a stockpile of soil on site for emergency backfill.
+
+## Table 4: Uplift Gradient
+
+| Description                              | Symbol           | Value     | UOM    | Source                     |
+|------------------------------------------|------------------|-----------|--------|----------------------------|
+| Unit weight of water                     | γ<sub>w</sub>               | 62.40     | lb/ft<sup>3</sup> |                            |
+| Area of project                          | a<sub>total</sub>           | 1,816.33  | ft<sup>2</sup>    |                            |
+| Area of footing                          | a<sub>footing</sub>         | 277.33    | ft<sup>2</sup>    |                            |
+| Area of slab                             | a<sub>slab</sub>            | 1,539.00  | ft<sup>2</sup>    |                            |
+| Depth of Excavation                      | d                | 6.67      | ft     |                            |
+| Thickness of blanket                     | b                | 20.00     | ft     |                            |
+| Head above tailwater at project location | h<sub>x               | 1.75      | ft     |                            |
+| Uplift Gradient Total                    | u<sub>gradienttotal</sub>   | 66,301.81 | lbs    | (d/b) * h<sub>x</sub> * a<sub>total</sub> * γ<sub>w</sub>   |
+| Uplift Gradient on Footing               | u<sub>gradientfooting</sub> | 10,123.53 | lbs    | (d/b) * h<sub>x</sub> * a<sub>footing</sub> * γ<sub>w</sub> |
+| Uplift Gradient on Slab                  | u<sub>gradientslab</sub>    | 56,178.28 | lbs    | (d/b) * h<sub>x</sub> * a<sub>slab</sub> * γ<sub>w</sub>    |
+
+## Table 8: Saturated Conductivity
+
+
+
+| Description                                         | Symbol | Value    | UOM        | Source                                                  |
+|-----------------------------------------------------|--------|----------|------------|---------------------------------------------------------|
+| Saturated conductivity of blanket                   | k<sub>b</sub>     | 4.42     | cm/hour    | Table Above                                             |
+| Saturated conductivity of blanket                   | k<sub>b</sub>     | 0.145013 | ft/hour    | Conversion                                              |
+| Thickness of blanket under slab                     | z      | 13.33    | feet       |                                                         |
+| Head above tailwater at project location (in sands) | h<sub>x</sub>     | 21.75    | feet       |                                                         |
+| Difference in Head                                  |        | -8.42    | feet       |                                                         |
+| Length                                              | L      | 13.33    | feet       |                                                         |
+| Flux                                                | J      | 0.09154  | ft/hour    | Darcy’s Law:  Positive J means flow from bottom to top. |
+| Area of project                                     | A      | 1,747.00 | ft<sup>2</sup>        |                                                         |
+| Volume of flow                                      | Q      | 160.01   | ft<sup>3</sup>/hr     | A * J                                                   |
+| Volume of flow                                      | Q      | 1,196.99 | gallons/hr |                                                         |
+
+To alleviate the pressure due to floatation under the slab, an interior French drain connected to a sump pump capable of continuously lifting at least 1,200 gallons/hour at least 10 feet should be installed under the slab. The sump should have a back-up pump capable of the same. All of the consumer grade sump pumps available at the local home improvement store are capable of lifting several thousand gallons per hour (2-3 times the requirement).
+
+All crushed stone in the French drain shall be protected and wrapped by a geotextile filter. The introduction of a drainage fabric around the aggregate will prevent in-situ soils from being washed into and clogging the drain. The geotextile filter fabric will prevent soil fines from entering the drainage system, thereby extending drain life and increasing performance.
+
+The French drain gravel should be washed three quarter inch minimum crushed stone. In addition to allowing the water to freely flow to the sump lines and sump pit, it is important to place the gravel around the pipe so as to filter any sediment that the geotextile was not able to remove.
+
+In a worst-case-scenario: if the actual volume of flow exceeds the calculated volume of flow, or the primary and back-up pumps fail, the sump pit will serve as a hydrostatic relief valve on the basement. The basement will flood and the flood waters in the basement will balance any uplift forces.
+
+## Table 9: Designed Uplift Factors of Safety Calculations
+
+With the modified basement design 602,160 pounds of uplift due to floatation are removed from the slab.
+
+| Description                         | Symbol        | Value      | UOM      |
+|-------------------------------------|---------------|------------|----------|
+| Total Uplift                        | u<sub>total</sub>        | 129,755.67 | lbs      |
+| Total Weight                        | e<sub>total</sub>        | 487,185.56 | lbs      |
+| Uplift Factor of Safety             |               | 3.75       | unitless |
+| Total Uplift On Footing             | u<sub>totalfooting</sub> | 73,577.39  | lbs      |
+| Total Weight On Footing             | e<sub>totalfooting</sub> | 406,768.89 | lbs      |
+| Uplift Factor of Safety for Footing |               | 5.53       | unitless |
+| Total Uplift on Slab                | u<sub>totalslab</sub>    | 56,178.28  | lbs      |
+| Total Weight on Slab                | e<sub>totalslab</sub>    | 80,416.67  | lbs      |
+| Uplift Factor of Safety for Slab    |               | 1.43       | unitless |
+
+## Interim Flood Protection and Contingency Plan
+
+Due to the temporary nature of all probable excavations and the distance from the levee, and low potential for underseepage or uplift, no interim flood protection or contingency plan was prepared.
+
+## General Recommendations and Comments
+
+The analyses and evaluations presented in this report are based on data obtained from maps and publications, and generally accepted engineering practices in accordance with the United States Army Corps of Engineers (USACE) guidance document for work proposed near or within the critical area of federally constructed flood control project. No laboratory testing program or subsurface explorations were performed.  This report does not reflect signification variations that may exist from published documents versus actual subsurface conditions, or variations due to modifying effects of weather.
+
+This report has been prepared for the exclusive use of this site to address the engineering and safety concerns associated with the construction of single-family residence within the critical area of federally constructed flood control project. The analyses and evaluations indicated that uplift pressures due to underseepage and buoyant soil conditions need to be addressed by utilizing the modified basement design detailed in this report.  Factors of safety against piping and heave were shown to greatly exceeded the minimum values specified by the USACE.
+
+While there is low safety risk associated with the construction activities, it is recommended that subsurface excavation depths greater than 30” not occur when the Kansas River is at a flood stage greater than 25 feet.
 
 #### Valve
 
