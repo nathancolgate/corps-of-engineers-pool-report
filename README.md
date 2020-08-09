@@ -117,7 +117,50 @@ At this project location, the ground surface varies from approximately 5 to 8 fe
 
 > Source: _USGS Groundwater levels for the Nation_ at the Douglas County, Kansas site [http://nwis.waterdata.usgs.gov/usa/nwis/gwlevels/?site_no=385841095124901](http://nwis.waterdata.usgs.gov/usa/nwis/gwlevels/?site_no=385841095124901)
 
+## Table 1: Hydraulic Gradient
 
+| Description                                                                                                                                | Symbol | Value    | UOM      | Source                                                            |   |   |
+|--------------------------------------------------------------------------------------------------------------------------------------------|--------|----------|----------|-------------------------------------------------------------------|---|---|
+| Elevation of top of levee                                                                                                                  | Elevee | 828.00   | ft       |                                                                   |   |   |
+| Elevation of landward toe of levee                                                                                                         | Etoe   | 824.00   | ft       |                                                                   |   |   |
+| Elevation of bottom of natural blanket                                                                                                     | Eb     | 804.00   | ft       |                                                                   |   |   |
+| Elevation of bottom of natural foundation                                                                                                  | Ef     | 769.00   | ft       |                                                                   |   |   |
+| Permeability ratio between horizontal permeability of the permeable foundation and vertical permeability of the impervious natural blanket | kf/kb  | 400.00   | unitless | USACE Manual - Assumed permeability for ML-CL blanket material    |   |   |
+| Total head on levee                                                                                                                        | H      | 4.00     | ft       | Elevee - Etoe                                                     |   |   |
+| Thickness of Natural Blanket                                                                                                               | Db     | 20.00    | ft       | Etoe - Eb                                                         |   |   |
+| Thickness of Foundation Sands                                                                                                              | Df     | 35.00    | ft       | Eb - Ef                                                           |   |   |
+| Effective length of the pervious foundation of infinite length covered by a natural impervious blanket                                     | C      | 529.15   | ft       | USACE Calculation:                                                |   |   |
+| Actual length of the landside natural blanket                                                                                              | LL     | infinite | ft       |                                                                   |   |   |
+| Distance from the landside toe of the assumed impervious section to the effective seepage exit                                             | Le     | 529.15   | ft       | USACE Manual: C when LL is infinite                               |   |   |
+| Actual length of the riverside natural blanket                                                                                             | LR     | 350.00   | ft       | Kansas River riverside blanket exposure to riverside of the levee |   |   |
+| Effective length of the riverside blanket                                                                                                  | L1     | 306.55   | ft       | USACE Calculation:                                                |   |   |
+| Base width of the assumed impervious fill and natural blanket beneath it.                                                                  | L2     | 90.00    | ft       |                                                                   |   |   |
+| Head above tailwater at landside levee toe (in sands)                                                                                      | ho     | 2.29     | ft       | USACE Calculation:                                                |   |   |
+| Elevation of head above tailwater at landside levee toe (in sands)                                                                         |        | 826.29   | ft       | Eb + Db + ho                                                      |   |   |
+| Location where uplift has to be calculated                                                                                                 | x      | 140.00   | ft       |                                                                   |   |   |
+|                                                                                                                                            | xL     | 529.15   | ft       | USACE Manual: Le                                                  |   |   |
+| Head above tailwater at project location (in sands)                                                                                        | hx     | 1.75     | ft       | USACE Calculation:                                                |   |   |
+| Elevation of head above tailwater at project location (in sands)                                                                           |        | 825.75   | ft       | Eb + Db + ho                                                      |   |   |
+
+This analysis was performed to determine the head above tailwater or hydraulic gradient at the point of excavations with respect to the levee. Using the equations outlined on the USACE guidance document within the Underseepage section.
+
+This value is used to calculate the factors of safety for piping and heave.
+
+## Table 2: Piping Factor of Safety for a temporary 7 foot deep excavation to elevation of 814.00 feet at a distance of 140 feet from the levee
+
+Per USACE requirements, the factor of safety must be a minimum of 1.5 at the bottom of excavations.
+
+| Description                                                         | Symbol | Value   | UOM      | Source             |
+|---------------------------------------------------------------------|--------|---------|----------|--------------------|
+| Weight of soil                                                      | γ<sub>s</sub>     | 125.00  | lb/ft<sup>3</sub>   |                    || Buoyant weight of saturated soil                                    | γ<sub>b</sub>     | 62.60   | lb/ft<sup>3</sub>   |                    |
+| Unit weight of water                                                | γ<sub>w</sub>     | 62.40   | lb/ft<sup>3</sub>   |                    |
+| Depth of Excavation                                                 | D<sub>e</sub>     | 6.67    | ft       |                    |   |   |
+| Thickness of impervious blanket under slab                          | z      | 13.33   | ft       |                    |
+| Critical or maximum upward seepage gradient through natural blanket | i<sub>c</sub>     | 1.00321 | unitless | USACE Calculation: |
+| Hydraulic Gradient                                                  | i      | 0.63150 | unitless | (D<sub>e</sub> + h<sub>x</sub>) / z      |
+| Piping factor of safety                                             | F<sub>s</sub>     | 1.59    | unitless | USACE Calculation: |
+
+While the piping factor of safety exceeds USACE requirements, it is recommended that contractors keep a stockpile of soil on site for emergency backfill.
 
 #### Valve
 
