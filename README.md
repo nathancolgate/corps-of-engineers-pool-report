@@ -10,6 +10,7 @@ Prepared by:
 David Clark and Nathan Clark  
 July 28, 2020
 
+![Stamp](stamp.png)
 
 ### Project Information and Observations
 
@@ -261,7 +262,7 @@ A load comparison can be done to determine the factor of safety against floatati
 
 ### Pool Excavation Methodology and Design Modifications
 
-Based on the analyses provided in the above sections for underseepage and uplift forces, a modified pool design will be required in order to prevent uplift. Additional weight will be added via rocks in the following ways:
+Based on the analyses provided in the above sections for underseepage and uplift forces, a modified pool design will be required in order to prevent uplift. Additional weight will be added to the pool using rocks in the following ways:
 
 1. The chosen design for this natural swimming pool calls for a rock biological filter in a zone designated for regeneration and natural filtration.
 2. River rocks will be added to the bottom of the deep swim zone.
@@ -276,20 +277,21 @@ Based on the analyses provided in the above sections for underseepage and uplift
 
 To further address uplift pressures when the pool is empty or partially filled, the pool has been designed with a hydrostatic relief valve to allow water to infiltrate the pool when the hydrostatic pressure due to high groundwater levels exceed a differential pressure of 1.0 psi or 2.3 feet of water.
 
+![Valve Diagram](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/valve_diagram.png)
+<small>_Figure: Valve installation diagram._</small>
 
+The following table breaks down the additional weight the rocks will add to the pool.
 
-The following table breaks down the additional weight added to the pool via the rocks.
-
-The unit weight of water filled rock was determined by an on-site test in which a bucket was filled with the desired rock material, topped off with water, and then weighed and measured.
+The unit weight of water filled rock was determined to be 119 lbs/ft<sup>3</sup> by an on-site test in which a bucket was filled with the desired rock material, topped off with water, and then weighed and measured.
 
 | Zone | Deep Swim | Shallow Swim | Biological Filter | Boulders | Total | UOM |
 |-------|-------|-------|-------|-------|-------|-------|
 | Total Volume | 3,187 | 1,576 | 2,099 | 100 | 6,962 | ft<sup>3</sup> |
 | Total Area | 541 (105 at bottom) | 812 | 1,070 | - | 2,423 | ft<sup>3</sup> |
 | Rock Addition | Add 0.5 ft to bottom | Add 0.5 ft to bottom | Fill 75% of volume per NSP guidebook | | |
-| Volume of Rock (water filled) | 52.5 | 406 | 1,575 | 100 | 2,492 | ft<sup>3</sup> |
+| Volume of Rock | 52.5 | 406 | 1,575 | 100 | 2,492 | ft<sup>3</sup> |
 | Unit Weight of Rock | 119 | 119 | 119 | 165 | | lbs/ft<sup>3</sup> |
-| Weight of Rock (water filled) | 6,247 | 48,314 | 187,335 | 16,500 | 258,397 | lbs |
+| Weight of Rock | 6,247 | 48,314 | 187,335 | 16,500 | 258,397 | lbs |
 | Volume of Water | 3,135 | 1,170 | 525 | 0 | 4,470 | ft<sup>3</sup> |
 | Unit Weight of Water | 62.4 | 62.4 | 62.4 | 62.4 | | lbs/ft<sup>3</sup> |
 | Weight of Water | 195,592 | 73,008 | 32,744 | 0 | 301,345 | lbs |
@@ -300,7 +302,7 @@ The unit weight of water filled rock was determined by an on-site test in which 
 | Description                              | Symbol           | Value     | UOM    | Source                     |
 |------------------------------------------|------------------|-----------|--------|----------------------------|
 | Total Uplift | u<sub>total</sub> | 505,640.7 | lbs | u<sub>pool</sub> + u<sub>gradientaverage</sub> |
-| Total Weight | e<sub>pool</sub> | 555,142.5 |  lbs | Total Weight of Water + Total Weight of Rock (water filled) |
+| Total Weight | e<sub>pool</sub> | 559,742.5 |  lbs | Total Weight of Water + Total Weight of Rock|
 | Uplift Factor of Safety| | 1.10 | unitless | e<sub>pool</sub> / u<sub>total</sub> |
 
 ## Interim Flood Protection and Contingency Plan
@@ -314,6 +316,14 @@ The analyses and evaluations presented in this report are based on data obtained
 This report has been prepared for the exclusive use of this site to address the engineering and safety concerns associated with the construction of single-family residence within the critical area of federally constructed flood control project. The analyses and evaluations indicated that uplift pressures due to underseepage and buoyant soil conditions need to be addressed by utilizing the modified basement design detailed in this report.  Factors of safety against piping and heave were shown to greatly exceeded the minimum values specified by the USACE.
 
 While there is low safety risk associated with the construction activities, it is recommended that subsurface excavation depths greater than 30” not occur when the Kansas River is at a flood stage greater than 25 feet.
+
+## Valve Brochure
+
+![Valve Brochure](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/valve_brochure.png)
+<small>_Figure: Valve brochure._</small>
+
+> Source: _United Industries Website_ copyright 2012 [https://www.swimtime.com/product/hydrostatic-relief-valve-assembly-2/](https://www.swimtime.com/product/hydrostatic-relief-valve-assembly-2/)
+
 
 
 
