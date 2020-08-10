@@ -22,7 +22,7 @@ The development planned for 872 Oak Street will consist of a below ground natura
 
 Construction will happen in the fall of 2020. Specific construction activities covered in this report are a pool excavation with a footprint of approximately 2,423 square feet. The periods during which subsurface excavation activities will occur is no greater than 2 weeks.
 
-The pool will contain the water via a water tight liner of EPDM rubber (45 or 60 mil thick) or fiber reinforced polyethylene (24 or 30 mil thick) installed following the manufacturers recommendations.
+The pool water will be contained via a water tight liner (EPDM rubber, fiber reinforced polyethylene, or similar type) installed following the manufacturers recommendations.
 
 #### Kansas River Levee Station
 
