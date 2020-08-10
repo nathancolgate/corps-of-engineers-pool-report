@@ -141,6 +141,18 @@ At this project location, the ground surface varies from approximately 5 to 8 fe
 
 > Source: _USGS Groundwater levels for the Nation_ at the Douglas County, Kansas site [http://nwis.waterdata.usgs.gov/usa/nwis/gwlevels/?site_no=385841095124901](http://nwis.waterdata.usgs.gov/usa/nwis/gwlevels/?site_no=385841095124901)
 
+## Analysis and Evaluation
+
+This analysis and evaluation was performed to determine a) underseepage of existing levee through pervious substrata, b) uplift pressure or structure load comparison at proposed structure footings, and c) excavation methodology and modifications or preparation if required. The analyses were performed in general accordance with the United States Army Corps of Engineers (USACE) guidance document for work proposed near or within the critical area of federally constructed flood control projects.
+
+> Source: _USGS Groundwater levels for the Nation_ at the Douglas County, Kansas site [http://www.nwk.usace.army.mil/Portals/29/docs/construction/underseepage1.pdf](http://www.nwk.usace.army.mil/Portals/29/docs/construction/underseepage1.pdf)
+
+> Source: _USGS Groundwater levels for the Nation_ at the Douglas County, Kansas site [http://www.nwk.usace.army.mil/Portals/29/docs/construction/uplift.pdf](http://www.nwk.usace.army.mil/Portals/29/docs/construction/uplift.pdf)
+
+Due to outline limits of excavations, analyses or evaluations of the existing levee are outside the scope of this report. No slope stability analyses were performed for the temporary excavations. The responsibility for excavation safety and stability of temporary construction slopes lie solely with the contractor and thus should follow the OSHA regulations given in 29 CFR Part  1926.650-652 Subpart P and any other local, state, and federal regulations for construction safety.
+
+Underseepage Analyses: Underseepage calculations to determine hydraulic grade line through the foundation strata were performed using geotechnical parameters established from the assumed soil and groundwater characteristics. The hydraulic grade line through the existing levee is not part of this analysis. Table 1 shows the elevations and distances used for underseepage analysis.
+
 ## Table 1: Hydraulic Gradient
 
 | Description                                                                                                                                | Symbol | Value    | UOM      | Source                                                            |
@@ -160,87 +172,116 @@ At this project location, the ground surface varies from approximately 5 to 8 fe
 | Effective length of the riverside blanket                                                                                                  | L<sub>1</sub>     | 306.55   | ft       | USACE Calculation: ![Cross Section of Levee](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/calcs/l1.png) |
 | Base width of the assumed impervious fill and natural blanket beneath it.                                                                  | L<sub>2</sub>     | 90.00    | ft       |                                                                   |
 | Head above tailwater at landside levee toe (in sands)                                                                                      | h<sub>o</sub>     | 2.29     | ft       | USACE Calculation: ![Cross Section of Levee](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/calcs/ho.png) |
-| Elevation of head above tailwater at landside levee toe (in sands)                                                                         |        | 826.29   | ft       | E<sub>b</sub> + D<sub>b</sub> + h<sub>o</sub>                                                      |
-| Location where uplift has to be calculated                                                                                                 | x      | 140.00   | ft       |                                                                   |
-|                                                                                                                                            | x<sub>L</sub>     | 529.15   | ft       | USACE Manual: L<sub>e</sub>                                                  |
-| Head above tailwater at project location (in sands)                                                                                        | h<sub>x</sub>     | 1.75     | ft       | USACE Calculation: ![Cross Section of Levee](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/calcs/hx.png) |
-| Elevation of head above tailwater at project location (in sands)                                                                           |        | 825.75   | ft       | E<sub>b</sub> + D<sub>b</sub> + h<sub>o</sub>                                                      |
 
 This analysis was performed to determine the head above tailwater or hydraulic gradient at the point of excavations with respect to the levee. Using the equations outlined on the USACE guidance document within the Underseepage section.
 
 This value is used to calculate the factors of safety for piping and heave.
 
-## Table 2: Piping Factor of Safety for a temporary 7 foot deep excavation to elevation of 814.00 feet at a distance of 140 feet from the levee
+## Table 2: Piping Factors of Safety
+
+Given the varying depths of the pool, multiple piping factors of safety were calculated:
+
+* F<sub>sshallow</sub>: a temporary excavation 5.3 feeet below and 36.9 feet north of the landward toe of the levee
+* F<sub>sdeep</sub>: a temporary excavation 9.3 feeet below and 46.0 feet north of the landward toe of the levee
+* F<sub>saverage</sub>: a temporary excavation of 4.2 feeet below and 65.3 feet north of the landward toe of the levee (an average depth and distance for the whole pool)
+
+
+![Site Excavations](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/excavation_detail.png)
+<small>_Figure: Excavation detail._</small>
 
 Per USACE requirements, the factor of safety must be a minimum of 1.5 at the bottom of excavations.
 
-| Description                                                         | Symbol | Value   | UOM      | Source             |
-|---------------------------------------------------------------------|--------|---------|----------|--------------------|
-| Weight of soil                                                      | γ<sub>s</sub>     | 125.00  | lb/ft<sup>3</sub>   |                    || Buoyant weight of saturated soil                                    | γ<sub>b</sub>     | 62.60   | lb/ft<sup>3</sub>   |                    |
-| Unit weight of water                                                | γ<sub>w</sub>     | 62.40   | lb/ft<sup>3</sub>   |                    |
-| Depth of Excavation                                                 | D<sub>e</sub>     | 6.67    | ft       |                    |   |   |
-| Thickness of impervious blanket under slab                          | z      | 13.33   | ft       |                    |
-| Critical or maximum upward seepage gradient through natural blanket | i<sub>c</sub>     | 1.00321 | unitless | USACE Calculation: |
-| Hydraulic Gradient                                                  | i      | 0.63150 | unitless | (D<sub>e</sub> + h<sub>x</sub>) / z      |
-| Piping factor of safety                                             | F<sub>s</sub>     | 1.59    | unitless | USACE Calculation: |
+| Description                                                         | Symbol | F<sub>sshallow</sub> | F<sub>sdeep</sub> | F<sub>saverage</sub> | UOM      | Source |
+|---------------------------------------------------------------------|--------|---------|---------|---------|----------|--------------------|
+| Weight of soil                                                      | γ<sub>s</sub>     | 125.0  | 125.0  | 125.0  | lb/ft<sup>3</sub>   | |
+| Buoyant weight of saturated soil                                    | γ<sub>b</sub>     | 62.6   | 62.6   | 62.6   | lb/ft<sup>3</sub>   | |
+| Unit weight of water                                                | γ<sub>w</sub>     | 62.4   | 62.4   | 62.4   | lb/ft<sup>3</sub>   | |
+| Critical or maximum upward seepage gradient through natural blanket | i<sub>c</sub>     | 1.0 | 1.0 | 1.0 | unitless | USACE Calculation:  ![Cross Section of Levee](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/calcs/ic.png) |
+| Depth of Excavation                                                 | D<sub>e</sub>     | 5.3    | 9.3    | 4.2    | ft       | Excavation plan |
+| Location where uplift is calculated                                 | x     | 36.9    | 46.0    | 65.3    | ft       | Excavation plan |
+| | x<sub>L</sub> | 506.1 | 506.1 | 506.1 | ft | USACE Manual: L<sub>e</sub> |
+| Head above tailwater at project location (in sands) | h<sub>x</sub>     | 3.37 | 3.31 | 3.19 | ft       | USACE Calculation: ![Cross Section of Levee](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/calcs/hx.png) |
+| Thickness of impervious blanket under excavation                          | z      | 13.0   | 9.0   | 14.1   | ft       | D<sub>b</sub> - D<sub>e</sub> |
+| Actual Gradient                                                  | i      | 0.26 | 0.37 | 0.23 | unitless | USACE Calculation: h<sub>x</sub> / z      |
+| Piping factors of safety                                             | F<sub>s</sub>     | 3.87    | 2.73    | 4.44    | unitless | USACE Calculation:  ![Cross Section of Levee](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/calcs/fs.png) |
 
-While the piping factor of safety exceeds USACE requirements, it is recommended that contractors keep a stockpile of soil on site for emergency backfill.
+While all of the piping factors of safety exceeds USACE requirements, it is recommended that contractors keep a stockpile of soil on site for emergency backfill.
+
+## Table 3: Uplift Pressure
+
+Given the vary depths and complex shape of the pool, the average depth and average hydraulic gradient from Table 2 were used for this analysis.
+
+| Description                                                             | Symbol | Value  | UOM    | Source             |
+|-------------------------------------------------------------------------|--------|--------|--------|--------------------|
+| Height of hydraulic gradient above the bottom of the impervious blanket | H1     | 21.5  | ft     | D<sub>b</sub> + h<sub>xaverage</sub> |
+| Height of blanket                                                       | H2     | 18.3  | ft     | D<sub>b</sub>                 |
+| Depth of Excavation                                                     | H3     | 4.2   | ft     | d<sub>poolaverage</sub>                |
+| Unit weight of Water                                                    | GW     | 62.40  | lb/ft3 |                    |
+| Uplift Pressure at the base of structure                                | P3     | 307.9 | lb/ft2 | USACE Calculation: ![Cross Section of Levee](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/calcs/p3.png) |
 
 ## Table 4: Uplift Gradient
+
+Given the vary depths and complex shape of the pool, the average depth was used for this analysis.
 
 | Description                              | Symbol           | Value     | UOM    | Source                     |
 |------------------------------------------|------------------|-----------|--------|----------------------------|
 | Unit weight of water                     | γ<sub>w</sub>               | 62.40     | lb/ft<sup>3</sup> |                            |
-| Area of project                          | a<sub>total</sub>           | 1,816.33  | ft<sup>2</sup>    |                            |
-| Area of footing                          | a<sub>footing</sub>         | 277.33    | ft<sup>2</sup>    |                            |
-| Area of slab                             | a<sub>slab</sub>            | 1,539.00  | ft<sup>2</sup>    |                            |
-| Depth of Excavation                      | d                | 6.67      | ft     |                            |
-| Thickness of blanket                     | b                | 20.00     | ft     |                            |
-| Head above tailwater at project location | h<sub>x               | 1.75      | ft     |                            |
-| Uplift Gradient Total                    | u<sub>gradienttotal</sub>   | 66,301.81 | lbs    | (d/b) * h<sub>x</sub> * a<sub>total</sub> * γ<sub>w</sub>   |
-| Uplift Gradient on Footing               | u<sub>gradientfooting</sub> | 10,123.53 | lbs    | (d/b) * h<sub>x</sub> * a<sub>footing</sub> * γ<sub>w</sub> |
-| Uplift Gradient on Slab                  | u<sub>gradientslab</sub>    | 56,178.28 | lbs    | (d/b) * h<sub>x</sub> * a<sub>slab</sub> * γ<sub>w</sub>    |
+| Surface area of pool                          | a<sub>total</sub>           | 2,423.5  | ft<sup>2</sup>    | As designed |
+| Volume of pool                          | v<sub>pool</sub>           | 6,962.0  | ft<sup>3</sup>    | As designed |
+| Average depth of pool                      | d<sub>poolaverage</sub>                | 2.9      | ft     | v<sub>pool</sub> / a<sub>total</sub> |
+| Elevation of pool surface below levee toe | d<sub>offset</sub> | 1.3      | ft     | As designed |
+| Thickness of blanket                     | d<sub>baverage</sub> | 14.1 | ft     | d<sub>b</sub> - d<sub>poolaverage</sub> - d<sub>offset</sub> |
+| Head above tailwater at project location | h<sub>xaverage</sub>| 3.19 | ft | Table 2 |
+| Uplift Gradient Total                    | u<sub>gradientaverage</sub>   | 99,219.5 | lbs    | (d<sub>poolaverage</sub>/d<sub>baverage</sub>) * h<sub>xaverage</sub> * a<sub>total</sub> * γ<sub>w</sub>   |
 
-## Table 8: Saturated Conductivity
+## Table 5: Uplift Factor of Safety Variables
 
+| Description                              | Symbol           | Value     | UOM    | Source                     |
+|------------------------------------------|------------------|-----------|--------|----------------------------|
+| Unit weight of water                     | γ<sub>w</sub>               | 62.40     | lb/ft<sup>3</sup> | |
+| Volume of pool                          | v<sub>pool</sub>           | 6,962.0  | ft<sup>3</sup>    | As designed |
+| Weight of pool                          | e<sub>pool</sub>           | 434,428.8 | lbs    | γ<sub>w</sub> * v<sub>pool</sub> |
+| Uplift on pool                          | u<sub>pool</sub>           | 434,428.8 | lbs    | γ<sub>w</sub> * v<sub>pool</sub> |
 
+## Table 6: Default Uplift Factor of Safety Calculations
 
-| Description                                         | Symbol | Value    | UOM        | Source                                                  |
-|-----------------------------------------------------|--------|----------|------------|---------------------------------------------------------|
-| Saturated conductivity of blanket                   | k<sub>b</sub>     | 4.42     | cm/hour    | Table Above                                             |
-| Saturated conductivity of blanket                   | k<sub>b</sub>     | 0.145013 | ft/hour    | Conversion                                              |
-| Thickness of blanket under slab                     | z      | 13.33    | feet       |                                                         |
-| Head above tailwater at project location (in sands) | h<sub>x</sub>     | 21.75    | feet       |                                                         |
-| Difference in Head                                  |        | -8.42    | feet       |                                                         |
-| Length                                              | L      | 13.33    | feet       |                                                         |
-| Flux                                                | J      | 0.09154  | ft/hour    | Darcy’s Law:  Positive J means flow from bottom to top. |
-| Area of project                                     | A      | 1,747.00 | ft<sup>2</sup>        |                                                         |
-| Volume of flow                                      | Q      | 160.01   | ft<sup>3</sup>/hr     | A * J                                                   |
-| Volume of flow                                      | Q      | 1,196.99 | gallons/hr |                                                         |
+A building load comparison can be done to determine the factor of safety against floatation of building foundations. The factor of safety is the ratio of the total weight of the building, to the uplift forces caused by flood waters on the riverside of the levee system or the presence of a high groundwater table. The minimum uplift factor of safety specified by the U.S. Army Corps of Engineers at this flood condition is 1.10.
 
-To alleviate the pressure due to floatation under the slab, an interior French drain connected to a sump pump capable of continuously lifting at least 1,200 gallons/hour at least 10 feet should be installed under the slab. The sump should have a back-up pump capable of the same. All of the consumer grade sump pumps available at the local home improvement store are capable of lifting several thousand gallons per hour (2-3 times the requirement).
+| Description                              | Symbol           | Value     | UOM    | Source                     |
+|------------------------------------------|------------------|-----------|--------|----------------------------|
+| Total Uplift | u<sub>total</sub> | 533,648.3 | lbs | u<sub>pool</sub> + u<sub>gradientaverage</sub> |
+| Total Weight | v<sub>pool</sub> | 434,428.8 |  lbs | e<sub>pool</sub> |
+| Uplift Factor of Safety| | 0.81 | unitless | v<sub>pool</sub> / u<sub>total</sub> |
 
-All crushed stone in the French drain shall be protected and wrapped by a geotextile filter. The introduction of a drainage fabric around the aggregate will prevent in-situ soils from being washed into and clogging the drain. The geotextile filter fabric will prevent soil fines from entering the drainage system, thereby extending drain life and increasing performance.
+### Pool Excavation Methodology and Design Modifications
 
-The French drain gravel should be washed three quarter inch minimum crushed stone. In addition to allowing the water to freely flow to the sump lines and sump pit, it is important to place the gravel around the pipe so as to filter any sediment that the geotextile was not able to remove.
+Based on the analyses provided in the above sections for underseepage and uplift forces, a modified pool design will be required in order to prevent uplift. This will be accomplished by the addition of a rock bottom to the deep and shallow swim areas, as well as a rock biological filter to the regeneration zone.
 
-In a worst-case-scenario: if the actual volume of flow exceeds the calculated volume of flow, or the primary and back-up pumps fail, the sump pit will serve as a hydrostatic relief valve on the basement. The basement will flood and the flood waters in the basement will balance any uplift forces.
+![Anatomy of a Natural Swimming Pool](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/anatomy_of_nsp.png)
+<small>_Figure: Anatomy of a Natural Swimming Pool. From Total Habitat's Natural Swimming Pools and Ponds Complete How To Guide, 2012_</small>
+
+| | Deep Swim | Shallow Swim | Biological Filter | Total |
+|-------|-------|-------|-------|-------|
+| Volume | 3,287 ft<sup>3</sup> | 1,576 ft<sup>3</sup> | 2,099 ft<sup>3</sup> | 6,962 ft<sup>3</sup> |
+| Area | 541 ft<sup>2</sup> (105 ft<sup>2</sup> at bottom) | 812 ft<sup>3</sup> | 1,070 ft<sup>3</sup> | 2,423 ft<sup>3</sup> |
+| Rock Addition | Add 1 foot to bottom | Add 1 foot to bottom | Fill 75% of volume | |
+| Volume of Rock, water filled | 105 ft<sup>3</sup> | 812 ft<sup>3</sup> | 1575 ft<sup>3</sup> | 2,492 ft<sup>3</sup> |
+| Unit Weight of Rock, water filled | 125 lbs/ft<sup>3</sup> | 125 lbs/ft<sup>3</sup> | 125 lbs/ft<sup>3</sup> | 125 lbs/ft<sup>3</sup> |
+| Weight of Rock, water filled | 13,125 lbs | 101,500 lbs | 196,781 lbs | 311,406 lbs |
+| Volume of Water | 3,182 ft<sup>3</sup> | 764 ft<sup>3</sup> | 525 ft<sup>3</sup> | 4,470 ft<sup>3</sup> |
+| Unit Weight of Water | 62.4 lbs/ft<sup>3</sup> | 62.4 lbs/ft<sup>3</sup> | 62.4 lbs/ft<sup>3</sup> | 62.4 lbs/ft<sup>3</sup> |
+| Weight of Water | 198,556 lbs | 47,673 lbs | 32,744 lbs | 278,975 lbs |
+
 
 ## Table 9: Designed Uplift Factors of Safety Calculations
 
-With the modified basement design 602,160 pounds of uplift due to floatation are removed from the slab.
+| Description                              | Symbol           | Value     | UOM    | Source                     |
+|------------------------------------------|------------------|-----------|--------|----------------------------|
+| Total Uplift | u<sub>total</sub> | 533,648.3 | lbs | u<sub>pool</sub> + u<sub>gradientaverage</sub> |
+| Total Weight | v<sub>pool</sub> | 590,381.0 |  lbs | Total Weight of Water + Total Weight of Rock, water filled |
+| Uplift Factor of Safety| | 1.11 | unitless | v<sub>pool</sub> / u<sub>total</sub> |
 
-| Description                         | Symbol        | Value      | UOM      |
-|-------------------------------------|---------------|------------|----------|
-| Total Uplift                        | u<sub>total</sub>        | 129,755.67 | lbs      |
-| Total Weight                        | e<sub>total</sub>        | 487,185.56 | lbs      |
-| Uplift Factor of Safety             |               | 3.75       | unitless |
-| Total Uplift On Footing             | u<sub>totalfooting</sub> | 73,577.39  | lbs      |
-| Total Weight On Footing             | e<sub>totalfooting</sub> | 406,768.89 | lbs      |
-| Uplift Factor of Safety for Footing |               | 5.53       | unitless |
-| Total Uplift on Slab                | u<sub>totalslab</sub>    | 56,178.28  | lbs      |
-| Total Weight on Slab                | e<sub>totalslab</sub>    | 80,416.67  | lbs      |
-| Uplift Factor of Safety for Slab    |               | 1.43       | unitless |
+To further address uplift pressures when the pool is empty or partially filled, the pool has been designed with a hydrostatif relief valve to allow water to infiltrate the pool when the hydrostatic pressure due to high groundwater levels exceed a differential pressure of 1.0 psi or 2.3 feet of water.
 
 ## Interim Flood Protection and Contingency Plan
 
