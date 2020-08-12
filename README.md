@@ -188,9 +188,9 @@ This value is used to calculate the factors of safety for piping and heave.
 
 Given the varying depths of the pool, multiple piping factors of safety were calculated:
 
-* F<sub>sshallow</sub>: a temporary excavation 5.3 feeet below and 36.9 feet north of the landward toe of the levee
-* F<sub>sdeep</sub>: a temporary excavation 9.3 feeet below and 46.0 feet north of the landward toe of the levee
-* F<sub>saverage</sub>: a temporary excavation of 4.2 feeet below and 65.3 feet north of the landward toe of the levee (an average depth and distance for the whole pool)
+* F<sub>sshallow</sub>: a temporary excavation 5.3 feet below and 36.9 feet north of the landward toe of the levee
+* F<sub>sdeep</sub>: a temporary excavation 9.3 feet below and 46.0 feet north of the landward toe of the levee
+* F<sub>saverage</sub>: a temporary excavation of 4.2 feet below and 65.3 feet north of the landward toe of the levee (an average depth and distance for the whole pool)
 
 
 ![Site Excavations](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/excavation_detail.png)
@@ -286,15 +286,15 @@ The unit weight of water filled rock was determined to be 119 lbs/ft<sup>3</sup>
 
 | Zone | Deep Swim | Shallow Swim | Biological Filter | Boulders | Total | UOM |
 |-------|-------|-------|-------|-------|-------|-------|
-| Total Volume | 3,187 | 1,576 | 2,099 | 100 | 6,962 | ft<sup>3</sup> |
-| Total Area | 541 (105 at bottom) | 812 | 1,070 | - | 2,423 | ft<sup>3</sup> |
+| Total Volume | 3,187.0 | 1,576.0 | 2,099.0 | 100.0 | 6,962.0 | ft<sup>3</sup> |
+| Total Area | 541.0 (105.0 at bottom) | 812.0 | 1,070.0 |  | 2,423.0 | ft<sup>2</sup> |
 | Rock Addition | Add 0.5 ft to bottom | Add 0.5 ft to bottom | Fill 75% of volume per NSP guidebook | | |
-| Volume of Rock | 52.5 | 406 | 1,575 | 100 | 2,492 | ft<sup>3</sup> |
-| Unit Weight of Rock | 119 | 119 | 119 | 165 | | lbs/ft<sup>3</sup> |
-| Weight of Rock | 6,247 | 48,314 | 187,335 | 16,500 | 258,397 | lbs |
-| Volume of Water | 3,135 | 1,170 | 525 | 0 | 4,470 | ft<sup>3</sup> |
+| Volume of Rock | 52.5 | 406.0 | 1,575.3 | 100.0 | 2,132.8 | ft<sup>3</sup> |
+| Unit Weight of Rock | 119.0 | 119.0 | 119.0 | 165.0 | | lbs/ft<sup>3</sup> |
+| Weight of Rock | 6,247.5 | 48,314.0 | 187,335.8 | 16,500.0 | 258,397.3 | lbs |
+| Volume of Water | 3,134.5 | 1,170.0 | 524.8 | 0.0 | 4,829.3 | ft<sup>3</sup> |
 | Unit Weight of Water | 62.4 | 62.4 | 62.4 | 62.4 | | lbs/ft<sup>3</sup> |
-| Weight of Water | 195,592 | 73,008 | 32,744 | 0 | 301,345 | lbs |
+| Weight of Water | 195,592.8 | 73,008.0 | 32,744.4 | 0.0 | 301,345.2 | lbs |
 
 
 ## Table 9: Designed Uplift Factors of Safety Calculations
@@ -313,7 +313,7 @@ Due to the temporary nature of all probable excavations and the distance from th
 
 The analyses and evaluations presented in this report are based on data obtained from maps and publications, and generally accepted engineering practices in accordance with the United States Army Corps of Engineers (USACE) guidance document for work proposed near or within the critical area of federally constructed flood control project. No laboratory testing program or subsurface explorations were performed.  This report does not reflect signification variations that may exist from published documents versus actual subsurface conditions, or variations due to modifying effects of weather.
 
-This report has been prepared for the exclusive use of this site to address the engineering and safety concerns associated with the construction of single-family residence within the critical area of federally constructed flood control project. The analyses and evaluations indicated that uplift pressures due to underseepage and buoyant soil conditions need to be addressed by utilizing the modified basement design detailed in this report.  Factors of safety against piping and heave were shown to greatly exceeded the minimum values specified by the USACE.
+This report has been prepared for the exclusive use of this site to address the engineering and safety concerns associated with the construction of single-family residence within the critical area of federally constructed flood control project. The analyses and evaluations indicated that uplift pressures due to underseepage and buoyant soil conditions need to be addressed by utilizing the modified pool design detailed in this report.  Factors of safety against piping and heave were shown to greatly exceeded the minimum values specified by the USACE.
 
 While there is low safety risk associated with the construction activities, it is recommended that subsurface excavation depths greater than 30” not occur when the Kansas River is at a flood stage greater than 25 feet.
 
