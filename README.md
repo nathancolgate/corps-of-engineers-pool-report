@@ -16,13 +16,24 @@ July 28, 2020
 
 #### Overview
 
-The development planned for 872 Oak Street will consist of a below ground natural swimming pool (or pond). The project site, located in the City of Lawrence, Douglas County, Kansas, was historically used for agriculture, and has one existing house with a basement. A few trees exist on the property. Some smaller fruit trees will be removed, but the larger shade trees will remain.
+The development planned for 872 Oak Street will consist of a below ground natural swimming pool (NSP) / pond. The project site, located in the City of Lawrence, Douglas County, Kansas, was historically used for agriculture, and has one existing house with a basement. A few trees exist on the property. Some smaller fruit trees will be removed, but the larger shade trees will remain.
 
 #### Construction
 
-Construction will happen in the fall of 2020. Specific construction activities covered in this report are a pool excavation with a footprint of approximately 2,423 square feet. The periods during which subsurface excavation activities will occur is no greater than 2 weeks.
+Construction will happen in the fall of 2020. The specific construction activity covered in this report is a pool excavation with a footprint of approximately 2,423 square feet. The period during which subsurface excavation activities will occur is no greater than 2 weeks.
+
+![Pool Design](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/pool_areas.png)
+<small>_Figure: The design of the pool indicating the three pool zones and their surface areas_</small>
 
 The pool water will be contained via a water tight liner (EPDM rubber, fiber reinforced polyethylene, or similar type) installed following the manufacturers recommendations.
+
+Due to the liner not being rigid the pool should not be analyzed as a single structure. The liner is incapable of transfering any loads or stresses to other areas of the pool. As such, every point in the pool footprint must be capable of safely addressing uplift and underseepage concerns.
+
+Therefore, for this analysis, the pool was broken into three zones based on their depths:
+
+* **A plant regeneration zone:** 2ft deep with a surface area of 1723.4 ft<sup>2</sup>
+* **A shallow zone:** 4ft deep with a surface area of 594.6 ft<sup>2</sup>
+* **A deep zone:** 8ft deep with a surface area of 105.5 ft<sup>2</sup>
 
 #### Kansas River Levee Station
 
@@ -42,7 +53,7 @@ The property lies in Zone X of the FEMA - Flood Insurance Rate Map (FIRM). Zone 
 
 #### Excavations
 
-The excavations at the closest point are approximately 31' from the toe and 51' from the top of the Kansas River levee, with surface elevations between 6 and 7.5 feet below the top of the levee. The top of the levee is approximately 828.3 feet above sea level and the ground surface elevation along the landward toe of the levee is approximately 822.3 feet above sea level.
+The excavations at the closest point are approximately 31' from the toe and 61' from the top of the Kansas River levee, with surface elevation 6 feet below the top of the levee. The top of the levee is approximately 828.3 feet above sea level and the ground surface elevation along the landward toe of the levee is approximately 822.3 feet above sea level.
 
 ![Site Excavations](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/excavation_detail.png)
 <small>_Figure: Excavation detail._</small>
@@ -74,9 +85,9 @@ The uppermost soil stratum at the site is classified by the Soil Survey and the 
 ![Cross Section of Levee](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/boring_elevations.png)
 <small>_Figure: Elevation of boring sites. Relevant borings highlighted in in blue (D-77) and red (D-78)._</small>
 
-This soil horizon varies in thickness but average in depth of 16 to 24 feet and greater. For the purpose of this analysis, the blanket thickness has been estimated at 20 feet, with a bottom elevation of 804.00. This is an average of the observed blanket thickness of boring D-77 at STA 385+10 (16 feet) and boring D-78 at STA 394+10 (24 feet).
+This soil horizon varies in thickness but average in depth of 16 to 24 feet and greater. For the purpose of this analysis, the blanket thickness has been estimated at 20 feet, with a bottom elevation of 804.0. This is an average of the observed blanket thickness of boring D-77 at STA 385+10 and boring D-78 at STA 394+10.
 
-The natural riverside blanket is 332 feet long.
+The natural riverside blanket is 332.2 feet long.
 
 ![Riverside Blanket](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/riverside_blanket.png)
 <small>_Figure: Actual length of the riverside natural blanket_</small>
@@ -84,6 +95,8 @@ The natural riverside blanket is 332 feet long.
 > Source: _Lawrence GIS_ [https://lawrenceks.maps.arcgis.com/](https://lawrenceks.maps.arcgis.com/)
 
 #### Natural Blanket Saturated Conductivity
+
+The saturated conductivity of Silt Loam (ML) and Silty Clay Loam (CL) is between 0.45 and 0.07 cm/hour. However, an on-site percolation test was conducted at a depth of 3 feet, and found the soil to have a rate of 3.81 cm/hour (more akin to sandy loam soil). For this analysis, sandy loam (SM) will be used for the blanket material.
 
 | Description     |  Value | UOM     |
 |-----------------|-------|---------|
@@ -102,11 +115,9 @@ The natural riverside blanket is 332 feet long.
 
 > Source: _Typical parameter values of van Genuchten models for different soil texture classes (from Leij, Alves, and van Genuchten, 1996)_ [http://soilphysics.okstate.edu/software/water/conductivity.html](http://soilphysics.okstate.edu/software/water/conductivity.html)
 
-The saturated conductivity of Silt Loam (ML) and Silty Clay Loam (CL) is between 0.45 and 0.07 cm/hour. However, an on-site percolation test was conducted at a depth of 3 feet, and found the soil to have a rate of 3.81 cm/hour (more akin to sandy loam soil). For this analysis, sandy loam will be used for the blanket material.
-
 #### Natural Foundation
 
-The underlying soils for the project site are classified by the Soil Survey as sandy and loamy deposits described as the Riverwash and Sarpy Series Overwash with outcroppings near the lowest level along the Kansas River. This soil horizon varies in thickness but detached borings indicate that the pervious zone averages 30 to 40 feet in thickness. For the purpose of this analysis, the pervious substratum thickness has been estimated at 35’.
+The underlying soils for the project site are classified by the Soil Survey as sandy and loamy deposits described as the Riverwash and Sarpy Series Overwash with outcroppings near the lowest level along the Kansas River. This soil horizon varies in thickness but detached borings indicate that the pervious zone averages 30 to 40 feet in thickness. For the purpose of this analysis, the pervious substratum thickness has been estimated at 35 feet, with a bottom elevation of 769.0.
 
 > Source: _USACE Lawrence, Kansas Operation and Maintenance Manual - Plan, Profile and Underground Explorations Sta. 346+00 to Sta. 402+00_ dated May 1969.
 
@@ -132,15 +143,24 @@ The Kansas River normal water elevation below the Bowersock Dam adjacent to the 
 * **18 feet:** Lowlands outside of the levee on the north side of the river begin to flood. Burcham Park is closed due to flooding on the south side of the river.
 * **15 feet:** Burcham Park on the south side of the river begins to flood.
 
+Flood Categories
+
+* **29.0 feet:** Major Flood Stage
+* **20.0 feet:** Moderate Flood Stage
+* **18.0 feet:** Flood Stage
+* **15 feet:** Action Stage
+
 > Source: Hydrograph for Kansas River at Lawrence Flood Stage Guage [http://water.weather.gov/ahps2/hydrograph.php?wfo=top&gage=lwrk1](http://water.weather.gov/ahps2/hydrograph.php?wfo=top&gage=lwrk1)
 
-While the Kansas River at Lawrence Flood Stage Gauge is upstream of the project, the uniform cross-section of the river would indicate that the relative depth of the flood water to height of levee would be equivalent to the section at the project location.  Based on relative elevation of the project site, Kansas River flood stage would need to be at 29 feet to recognize a groundwater elevation equivalent to the lowest point on the crest of the project site levee.
+While the Kansas River at Lawrence Flood Stage Gauge is upstream of the project, the uniform cross-section of the river would indicate that the relative depth of the flood water to height of levee would be equivalent to the section at the project location.
+
+For this analysis, uplift values were calculated for an extreme operating condition of a major flood stage in which the riverside groundwater elevation has reached the top of the levee: 34 feet, with an elevation of 828.3.  
 
 #### Ground Water Observations
 
 Ground water levels were estimated based on information provided in the United States Department of Agriculture's _Soil Survey of Douglas County, Kansas_ dated 1973. Groundwater elevations and fluctuations for the Eudora-Kimo complex are outlined in the Soil Survey. Seasonal high water tables are more apparent in the months from March to June with elevations generally being greater than six feet below ground surface.  No physical groundwater levels were determined for this report.
 
-At this project location, the ground surface is approximately 6 feet below the top of the levee.  Assuming fully saturated soil with groundwater up to the surface, the groundwater at the project site would be at the ground surface adjacent to the levee or an elevation of 822.3 feet above sea level.
+At this project location, the ground surface is approximately 6 feet below the top of the levee.  Assuming fully saturated soil with groundwater up to the surface, the landside groundwater at the project site would be at the ground surface adjacent to the levee or an elevation of 822.3 feet above sea level.
 
 > Source: _Soil Survey of Douglas County, Kansas_ [http://www.nrcs.usda.gov/Internet/FSE_MANUSCRIPTS/kansas/douglasKS1977/douglas.pdf](http://www.nrcs.usda.gov/Internet/FSE_MANUSCRIPTS/kansas/douglasKS1977/douglas.pdf)
 
@@ -175,10 +195,10 @@ Underseepage Analyses: Underseepage calculations to determine hydraulic grade li
 | Effective length of the pervious foundation of infinite length covered by a natural impervious blanket                                     | C      | 253.1 | ft       | USACE Calculation: ![Cross Section of Levee](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/calcs/c.png) |
 | Actual length of the landside natural blanket                                                                                              | L<sub>L</sub>     | infinite | ft       |                                                                   |
 | Distance from the landside toe of the assumed impervious section to the effective seepage exit                                             | L<sub>e</sub>     | 253.1   | ft       | USACE Manual: C when L<sub>L</sub> is infinite                               |
-| Actual length of the riverside natural blanket                                                                                             | L<sub>R</sub>     | 332.0   | ft       | Kansas River riverside blanket exposure to riverside of the levee |
-| Effective length of the riverside blanket                                                                                                  | L<sub>1</sub>     | 208.9   | ft       | USACE Calculation: ![Cross Section of Levee](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/calcs/l1.png) |
-| Base width of the assumed impervious fill and natural blanket beneath it.                                                                  | L<sub>2</sub>     | 40.0    | ft       |                                                                   |
-| Head above tailwater at landside levee toe (in sands)                                                                                      | h<sub>o</sub>     | 2.97     | ft       | USACE Calculation: ![Cross Section of Levee](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/calcs/ho.png) |
+| Actual length of the riverside natural blanket                                                                                             | L<sub>R</sub>     | 332.2   | ft       | Kansas River riverside blanket exposure to riverside of the levee |
+| Effective length of the riverside blanket                                                                                                  | L<sub>1</sub>     | 218.9   | ft       | USACE Calculation: ![Cross Section of Levee](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/calcs/l1.png) |
+| Base width of the assumed impervious fill and natural blanket beneath it.                                                                  | L<sub>2</sub>     | 60.0    | ft       |                                                                   |
+| Head above tailwater at landside levee toe (in sands)                                                                                      | h<sub>o</sub>     | 2.85     | ft       | USACE Calculation: ![Cross Section of Levee](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/calcs/ho.png) |
 
 This analysis was performed to determine the head above tailwater or hydraulic gradient at the point of excavations with respect to the levee. Using the equations outlined on the USACE guidance document within the Underseepage section.
 
@@ -186,88 +206,81 @@ This value is used to calculate the factors of safety for piping and heave.
 
 ## Table 2: Piping Factors of Safety
 
-Given the varying depths of the pool, multiple piping factors of safety were calculated:
+Piping factors of safety were calculated for each zone of the pool:
 
-* F<sub>sshallow</sub>: a temporary excavation 5.3 feet below and 36.9 feet north of the landward toe of the levee
-* F<sub>sdeep</sub>: a temporary excavation 9.3 feet below and 46.0 feet north of the landward toe of the levee
-* F<sub>saverage</sub>: a temporary excavation of 4.2 feet below and 65.3 feet north of the landward toe of the levee (an average depth and distance for the whole pool)
-
+* Z<sub>regen</sub>: a temporary excavation 1.75 feet below and 31.1 feet north of the landward toe of the levee
+* Z<sub>shallow</sub>: a temporary excavation 3.75 feet below and 37.0 feet north of the landward toe of the levee
+* Z<sub>deep</sub>: a temporary excavation of 7.75 feet below and 46.0 feet north of the landward toe of the levee
 
 ![Site Excavations](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/excavation_detail.png)
 <small>_Figure: Excavation detail._</small>
 
 Per USACE requirements, the factor of safety must be a minimum of 1.5 at the bottom of excavations.
 
-| Description                                                         | Symbol | F<sub>sshallow</sub> | F<sub>sdeep</sub> | F<sub>saverage</sub> | UOM      | Source |
+| Description                                                         | Symbol | Z<sub>regen</sub> | Z<sub>shallow</sub> | Z<sub>deep</sub> | UOM      | Source |
 |---------------------------------------------------------------------|--------|---------|---------|---------|----------|--------------------|
 | Weight of soil                                                      | γ<sub>s</sub>     | 125.0  | 125.0  | 125.0  | lb/ft<sup>3</sub>   | |
 | Buoyant weight of saturated soil                                    | γ<sub>b</sub>     | 62.6   | 62.6   | 62.6   | lb/ft<sup>3</sub>   | |
 | Unit weight of water                                                | γ<sub>w</sub>     | 62.4   | 62.4   | 62.4   | lb/ft<sup>3</sub>   | |
 | Critical or maximum upward seepage gradient through natural blanket | i<sub>c</sub>     | 1.0 | 1.0 | 1.0 | unitless | USACE Calculation:  ![Cross Section of Levee](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/calcs/ic.png) |
-| Depth of Excavation                                                 | D<sub>e</sub>     | 5.3    | 9.3    | 4.2    | ft       | Excavation plan |
-| Location where uplift is calculated                                 | x     | 36.9    | 46.0    | 65.3    | ft       | Excavation plan |
+| Depth of Excavation                                                 | D<sub>e</sub>     | 1.75    | 3.75    | 7.75 | ft       | Excavation plan |
+| Location where uplift is calculated                                 | x     | 31.1    | 37.0    | 46.0    | ft       | Excavation plan |
 | | x<sub>L</sub> | 253.1 | 253.1 | 253.1 | ft | USACE Manual: L<sub>e</sub> |
-| Head above tailwater at project location (in sands) | h<sub>x</sub>     | 2.56 | 2.47 | 2.29 | ft | USACE Calculation: ![Cross Section of Levee](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/calcs/hx.png) |
-| Thickness of impervious blanket under excavation                          | z      | 13.0   | 9.0   | 14.1   | ft       | D<sub>b</sub> - D<sub>e</sub> |
-| Actual Gradient                                                  | i      | 0.20 | 0.27 | 0.16 | unitless | USACE Calculation: h<sub>x</sub> / z      |
-| Piping factors of safety                                             | F<sub>s</sub>     | 5.09    | 3.65    | 6.17 | unitless | USACE Calculation:  ![Cross Section of Levee](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/calcs/fs.png) |
+| Head above tailwater at project location (in sands) | h<sub>x</sub>     | 2.52 | 2.47 | 2.38 | ft | USACE Calculation: ![Cross Section of Levee](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/calcs/hx.png) |
+| Thickness of impervious blanket under excavation                          | z      | 16.55   | 14.55   | 10.55   | ft       | D<sub>b</sub> - D<sub>e</sub> |
+| Actual Gradient                                                  | i      | 0.15 | 0.17 | 0.23 | unitless | USACE Calculation: h<sub>x</sub> / z      |
+| Piping factors of safety                                             | F<sub>s</sub>     | 6.6    | 5.9 | 4.5 | unitless | USACE Calculation:  ![Cross Section of Levee](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/calcs/fs.png) |
 
 While all of the piping factors of safety exceeds USACE requirements, it is recommended that contractors keep a stockpile of soil on site for emergency backfill.
 
 ## Table 3: Uplift Pressure
 
-Given the varying depths and complex shape of the pool, the average depth and average hydraulic gradient from Table 2 were used for this analysis.
+![Illustration of Uplift Pressure Calculations](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/uplift_pressure.png)
+<small>_Figure: Illustration of Uplift Pressure Calculations._</small>
 
-| Description                                                             | Symbol | Value  | UOM    | Source             |
-|-------------------------------------------------------------------------|--------|--------|--------|--------------------|
-| Height of hydraulic gradient above the bottom of the impervious blanket | H1     | 20.6  | ft     | D<sub>b</sub> + h<sub>xaverage</sub> |
-| Height of blanket                                                       | H2     | 18.3  | ft     | D<sub>b</sub>                 |
-| Depth of Excavation                                                     | H3     | 4.2   | ft     | d<sub>poolaverage</sub>                |
-| Unit weight of Water                                                    | GW     | 62.40  | lb/ft3 |                    |
-| Uplift Pressure at the base of structure                                | P3     | 295.0 | lb/ft2 | USACE Calculation: ![Cross Section of Levee](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/calcs/p3.png) |
+| Description                                                             | Symbol | Z<sub>regen</sub>  | Z<sub>shallow</sub>  | Z<sub>deep</sub>  | UOM    | Source             |
+|--------|--------|------|--------|--------|--------|--------------------|
+| Height of hydraulic gradient above the bottom of the impervious blanket | H1     | 20.8  | 20.8  | 20.7  | ft     | D<sub>b</sub> + h<sub>x</sub> |
+| Height of blanket                                                       | H2     | 18.3  | 18.3  | 18.3  | ft     | D<sub>b</sub>                 |
+| Depth of Excavation below Toe                                                     | H3     | 1.75   | 3.75   | 7.75   | ft     | d<sub>excavation</sub>                |
+| Unit weight of Water                                                    | GW     | 62.40  | 62.40  | 62.40  | lb/ft3 |                    |
+| Uplift Pressure at the base of structure                                | P3     | 124.3 | 265.5 | 546.5 | lb/ft2 | USACE Calculation: ![Cross Section of Levee](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/calcs/p3.png) |
 
 ## Table 4: Uplift Gradient
 
-Given the varying depths and complex shape of the pool, the average depth was used for this analysis.
+![Pool Design](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/pool_areas.png)
+<small>_Figure: The design of the pool indicating the three pool zones and their surface areas_</small>
 
-| Description                              | Symbol           | Value     | UOM    | Source                     |
-|------------------------------------------|------------------|-----------|--------|----------------------------|
-| Unit weight of water                     | γ<sub>w</sub>               | 62.40     | lb/ft<sup>3</sup> |                            |
-| Surface area of pool                          | a<sub>total</sub>           | 2,423.5  | ft<sup>2</sup>    | As designed |
-| Volume of pool                          | v<sub>pool</sub>           | 6,962.0  | ft<sup>3</sup>    | As designed |
-| Average depth of pool                      | d<sub>poolaverage</sub>                | 2.9      | ft     | v<sub>pool</sub> / a<sub>total</sub> |
-| Elevation of pool surface below levee toe | d<sub>offset</sub> | 1.3      | ft     | As designed |
-| Thickness of blanket                     | d<sub>baverage</sub> | 14.1 | ft     | d<sub>b</sub> - d<sub>poolaverage</sub> - d<sub>offset</sub> |
-| Head above tailwater at project location | h<sub>xaverage</sub>| 2.29 | ft | Table 2 |
-| Uplift Gradient Total                    | u<sub>gradientaverage</sub>   | 71,211.9 | lbs    | (d<sub>poolaverage</sub>/d<sub>baverage</sub>) * h<sub>xaverage</sub> * a<sub>total</sub> * γ<sub>w</sub>   |
+| Description                              | Symbol           | Z<sub>regen</sub>  | Z<sub>shallow</sub>  | Z<sub>deep</sub>  | UOM    | Source                     |
+|--------|--------|-------|------------------|-----------|--------|----------------------------|
+| Surface area of pool                          | a<sub>pool</sub> | 1,723.4  | 594.6  | 105.5  | ft<sup>2</sup>    | As designed |
+| Uplift on pool | u<sub>pool</sub> | 214,157.7 | 157,869.5 | 57,655.8 | lbs    | P3 * a<sub>pool</sub> |
 
 ## Table 5: Uplift Factor of Safety Variables
 
-| Description                              | Symbol           | Value     | UOM    | Source                     |
-|------------------------------------------|------------------|-----------|--------|----------------------------|
-| Unit weight of water                     | γ<sub>w</sub>               | 62.40     | lb/ft<sup>3</sup> | |
-| Volume of pool                          | v<sub>pool</sub>           | 6,962.0  | ft<sup>3</sup>    | As designed |
-| Weight of pool                          | e<sub>pool</sub>           | 434,428.8 | lbs    | γ<sub>w</sub> * v<sub>pool</sub> |
-| Uplift on pool                          | u<sub>pool</sub>           | 434,428.8 | lbs    | γ<sub>w</sub> * v<sub>pool</sub> |
+| Description                              | Symbol           | Z<sub>regen</sub>  | Z<sub>shallow</sub>  | Z<sub>deep</sub>  | UOM    | Source                     |
+|--------|--------|-------|------------------|-----------|--------|----------------------------|
+| Unit weight of water                     | γ<sub>w</sub>               | 62.40     | 62.40     | 62.40     | lb/ft<sup>3</sup> |                            |
+| Surface area of pool                          | a<sub>pool</sub> | 1,723.4  | 594.6  | 105.5  | ft<sup>2</sup>    | As designed |
+| Depth of pool | d<sub>pool</sub>           | 2.0  | 4.0  | 8.0  | ft<sup>2</sup>    | As designed |
+| Volume of pool                          | v<sub>pool</sub> | 3,446.8  | 2,378.0  | 844.0  | ft<sup>3</sup>    | a<sub>pool</sub> * d<sub>pool</sub> |
+| Weight of pool                          | e<sub>pool</sub>           | 215,080.3 | 148,387.2 | 52,665.6 | lbs    | γ<sub>w</sub> * v<sub>pool</sub> |
 
 ## Table 6: Default Uplift Factor of Safety Calculations
 
 A load comparison can be done to determine the factor of safety against floatation. The factor of safety is the ratio of the total weight of the pool, to the uplift forces caused by flood waters on the riverside of the levee system or the presence of a high groundwater table. The minimum uplift factor of safety specified by the U.S. Army Corps of Engineers at this flood condition is 1.10.
 
-| Description                              | Symbol           | Value     | UOM    | Source                     |
-|------------------------------------------|------------------|-----------|--------|----------------------------|
-| Total Uplift | u<sub>total</sub> | 505,640.7 | lbs | u<sub>pool</sub> + u<sub>gradientaverage</sub> |
-| Total Weight | e<sub>pool</sub> | 434,428.8 |  lbs | e<sub>pool</sub> |
-| Uplift Factor of Safety| | 0.86 | unitless | e<sub>pool</sub> / u<sub>total</sub> |
+| Description                              | Symbol           | Z<sub>regen</sub>  | Z<sub>shallow</sub>  | Z<sub>deep</sub>  | UOM    | Source                     |
+|--------|--------|-------------|------------------|-----------|--------|----------------------------|
+| Uplift Factor of Safety| F<sub>s</sub> | 1.0 | 0.94 | 0.91 | unitless | e<sub>pool</sub> / u<sub>pool</sub> |
 
 ### Pool Excavation Methodology and Design Modifications
 
-Based on the analyses provided in the above sections for underseepage and uplift forces, a modified pool design will be required in order to prevent uplift. Additional weight will be added to the pool using rocks in the following ways:
+Based on the analyses provided in the above sections for underseepage and uplift forces, a modified pool design will be required in order to prevent uplift. Fortuntaly, the standard design for NSPs / ponds already call for lining the pool bottom with rocks. Additional weight will be added to the pool using rocks in the following ways:
 
-1. The chosen design for this natural swimming pool calls for a rock biological filter in a zone designated for regeneration and natural filtration.
-2. River rocks will be added to the bottom of the deep swim zone.
-2. River rocks will be added to the bottom of the shallow swim zone.
-2. Decorative boulders will be added to pool.
+1. At least 3 inches of rock will be added to the bottom of the plant regeneration zone
+1. At least 9 inches of rock will be added to the bottom of the plant shallow zone
+1. At least 22 inches of rock will be added to the bottom of the plant deep zone
 
 ![Anatomy of a Natural Swimming Pool](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/anatomy_of_nsp.png)
 <small>_Figure: Typical Design of a Natural Swimming Pool (NSP)._</small>
