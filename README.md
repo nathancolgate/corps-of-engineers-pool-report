@@ -235,6 +235,10 @@ While all of the piping factors of safety exceeds USACE requirements, it is reco
 
 ## Table 3: Uplift Pressure
 
+Uplift pressure calculations were done using the USACE's guidelines for the computation of uplift on a structure within the impervious blanket in the critical area of a flood control project.
+
+> Source: _Guidance for Work Proposed near or within a Federally Constructed Flood Risk Management Project_ [https://www.nwk.usace.army.mil/Missions/Engineering-Division/Geotechnical-Branch/Geotechnical-Design-and-Dam-Safety/](https://www.nwk.usace.army.mil/Missions/Engineering-Division/Geotechnical-Branch/Geotechnical-Design-and-Dam-Safety/)
+
 ![Illustration of Uplift Pressure Calculations](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/uplift_pressure.png)
 <small>_Figure: Illustration of Uplift Pressure Calculations._</small>
 
@@ -242,11 +246,13 @@ While all of the piping factors of safety exceeds USACE requirements, it is reco
 |--------|--------|------|--------|--------|--------|--------------------|
 | Height of hydraulic gradient above the bottom of the impervious blanket | H1     | 20.8  | 20.8  | 20.7  | ft     | D<sub>b</sub> + h<sub>x</sub> |
 | Height of blanket                                                       | H2     | 18.3  | 18.3  | 18.3  | ft     | D<sub>b</sub>                 |
-| Depth of Excavation below Toe                                                     | H3     | 1.75   | 3.75   | 7.75   | ft     | d<sub>excavation</sub>                |
+| Depth of Excavation below Toe                                                     | H3     | 1.75   | 3.75   | 7.75   | ft     | As designed |
 | Unit weight of Water                                                    | GW     | 62.40  | 62.40  | 62.40  | lb/ft3 |                    |
 | Uplift Pressure at the base of structure                                | P3     | 124.3 | 265.5 | 546.5 | lb/ft2 | USACE Calculation: ![Cross Section of Levee](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/calcs/p3.png) |
 
-## Table 4: Uplift Gradient
+## Table 4: Uplift
+
+Actual uplift is then calculated by multiplying the uplift force by the footprint of the pools.
 
 ![Pool Design](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/pool_areas.png)
 <small>_Figure: The design of the pool indicating the three pool zones and their surface areas_</small>
@@ -276,11 +282,11 @@ A load comparison can be done to determine the factor of safety against floatati
 
 ### Pool Excavation Methodology and Design Modifications
 
-Based on the analyses provided in the above sections for underseepage and uplift forces, a modified pool design will be required in order to prevent uplift. Fortuntaly, the standard design for NSPs / ponds already call for lining the pool bottom with rocks. Additional weight will be added to the pool using rocks in the following ways:
+Based on the analyses provided in the above sections for underseepage and uplift forces, a modified pool design will be required in order to prevent uplift. Fortuntaly, the standard design for NSPs / ponds already calls for lining the pool bottom with rocks. Additional weight will be added to the pool using rocks in the following ways:
 
 1. At least 3 inches of rock will be added to the bottom of the plant regeneration zone
-1. At least 9 inches of rock will be added to the bottom of the plant shallow zone
-1. At least 22 inches of rock will be added to the bottom of the plant deep zone
+1. At least 9 inches of rock will be added to the bottom of the shallow zone
+1. At least 22 inches of rock will be added to the bottom of the deep zone
 
 ![Anatomy of a Natural Swimming Pool](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/anatomy_of_nsp.png)
 <small>_Figure: Typical Design of a Natural Swimming Pool (NSP)._</small>
@@ -293,30 +299,29 @@ To further address uplift pressures when the pool is empty or partially filled, 
 ![Valve Diagram](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/valve_diagram.png)
 <small>_Figure: Valve installation diagram._</small>
 
+## Table 7: Additional Design Weight
+
 The following table breaks down the additional weight the rocks will add to the pool.
 
-The unit weight of water filled rock was determined to be 119 lbs/ft<sup>3</sup> by an on-site test in which a bucket was filled with the desired rock material, topped off with water, and then weighed and measured.
+The unit weight of water filled rock was determined to be 118.9 lbs/ft<sup>3</sup> by an on-site test in which a bucket was filled with the desired rock material, topped off with water, and then weighed and measured.
 
-| Zone | Deep Swim | Shallow Swim | Biological Filter | Boulders | Total | UOM |
+| Description | Symbol | Z<sub>regen</sub> | Z<sub>shallow</sub> | Z<sub>deep</sub> | UOM | Source |
 |-------|-------|-------|-------|-------|-------|-------|
-| Total Volume | 3,187.0 | 1,576.0 | 2,099.0 | 100.0 | 6,962.0 | ft<sup>3</sup> |
-| Total Area | 541.0 (105.0 at bottom) | 812.0 | 1,070.0 |  | 2,423.0 | ft<sup>2</sup> |
-| Rock Addition | Add 0.5 ft to bottom | Add 0.5 ft to bottom | Fill 75% of volume per NSP guidebook | | |
-| Volume of Rock | 52.5 | 406.0 | 1,575.3 | 100.0 | 2,132.8 | ft<sup>3</sup> |
-| Unit Weight of Rock | 119.0 | 119.0 | 119.0 | 165.0 | | lbs/ft<sup>3</sup> |
-| Weight of Rock | 6,247.5 | 48,314.0 | 187,335.8 | 16,500.0 | 258,397.3 | lbs |
-| Volume of Water | 3,134.5 | 1,170.0 | 524.8 | 0.0 | 4,829.3 | ft<sup>3</sup> |
-| Unit Weight of Water | 62.4 | 62.4 | 62.4 | 62.4 | | lbs/ft<sup>3</sup> |
-| Weight of Water | 195,592.8 | 73,008.0 | 32,744.4 | 0.0 | 301,345.2 | lbs |
+| Rock depth | d<sub>rock</sub> | 0.25 | 0.75 | 1.83 | ft | As designed |
+| Rock volume |  v<sub>rock</sub> | 430.9 | 445.9 | 193.1 | ft<sup>3</sup> | d<sub>rock</sub> * a<sub>pool</sub> |
+| Unit Weight of Saturated Rock | γ<sub>rock</sub> | 118.9 | 118.9 | 118.9 | lbs/ft<sup>3</sup> | |
+| Weight of Saturated Rock | e<sub>rock</sub> | 51,228.1 | 53,014.5 | 22,955.4 | lbs | γ<sub>rock</sub> * v<sub>rock</sub> |
+| Water Volume | v<sub>water</sub> | 3,016.0 | 1,932.1 | 651.0 | ft<sup>3</sup> | v<sub>pool</sub> - v<sub>rock</sub> |
+| Unit Weight of Water | γ<sub>w</sub> | 62.4 | 62.4 | 62.4 | lbs/ft<sup>3</sup> | |
+| Weight of Water | e<sub>water</sub> | 188,195.3 | 120,564.6 | 40,618.3 | lbs | γ<sub>water</sub> * v<sub>water</sub> |
+| Weight of Pool | e<sub>pool</sub> | 239,423.3 | 173,579.1 | 63,573.8 | lbs | e<sub>water</sub> + e<sub>rock</sub> |
 
 
 ## Table 9: Designed Uplift Factors of Safety Calculations
 
-| Description                              | Symbol           | Value     | UOM    | Source                     |
-|------------------------------------------|------------------|-----------|--------|----------------------------|
-| Total Uplift | u<sub>total</sub> | 505,640.7 | lbs | u<sub>pool</sub> + u<sub>gradientaverage</sub> |
-| Total Weight | e<sub>pool</sub> | 559,742.5 |  lbs | Total Weight of Water + Total Weight of Rock|
-| Uplift Factor of Safety| | 1.10 | unitless | e<sub>pool</sub> / u<sub>total</sub> |
+| Description                              | Symbol           | Z<sub>regen</sub>  | Z<sub>shallow</sub>  | Z<sub>deep</sub>  | UOM    | Source                     |
+|--------|--------|-------------|------------------|-----------|--------|----------------------------|
+| Uplift Factor of Safety| F<sub>s</sub> | 1.12 | 1.10 | 1.11 | unitless | e<sub>pool</sub> / u<sub>pool</sub> |
 
 ## Interim Flood Protection and Contingency Plan
 
