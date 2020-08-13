@@ -43,8 +43,8 @@ The following design values were used for this analysis.
 | Description | Symbol | Z<sub>regen</sub>  | Z<sub>shallow</sub>  | Z<sub>deep</sub>  | UOM    |
 |--------|--------|-------|------------------|-----------|--------|----------------------------|
 | Depth of zone | d<sub>zone</sub> | 2.0 | 4.0  | 8.5 | ft |
-| Depth of zone excavation below toe of levee | D<sub>e</sub> | 1.75 | 3.75 | 8.25 | ft |
-| Location where uplift is calculated | x | 31.1 | 37.0 | 46.0 | ft |
+| Depth of zone excavation below toe of levee | d<sub>excavation</sub> | 1.75 | 3.75 | 8.25 | ft |
+| Location where uplift is calculated | x<sub>zone</sub> | 31.1 | 37.0 | 46.0 | ft |
 | Surface area of zone | a<sub>zone</sub> | 1,723.4  | 594.6  | 105.5  | ft<sup>2</sup>  |
 
 #### Kansas River Levee Station
@@ -227,8 +227,8 @@ Per USACE requirements, the factor of safety must be a minimum of 1.5 at the bot
 | Buoyant Weight of Saturated Soil                                    | γ<sub>b</sub>     | 62.6   | 62.6   | 62.6   | lb/ft<sup>3</sub>   | γ<sub>s</sub> - γ<sub>w</sub> |
 | Critical or Maximum Upward Seepage Gradient Through Natural Blanket | i<sub>c</sub>     | 1.0 | 1.0 | 1.0 | unitless | USACE Calculation:  ![Cross Section of Levee](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/calcs/ic.png) |
 | | x<sub>L</sub> | 253.1 | 253.1 | 253.1 | ft | USACE Manual: L<sub>e</sub> |
-| Head Above Tailwater at Zone Location (in sands) | h<sub>x</sub>     | 2.52 | 2.47 | 2.38 | ft | USACE Calculation: ![Cross Section of Levee](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/calcs/hx.png) |
-| Thickness of Blanket Under Excavation | z      | 16.55   | 14.55   | 10.05   | ft       | D<sub>b</sub> - D<sub>e</sub> |
+| Head Above Tailwater at Zone Location (in sands) | h<sub>x</sub>     | 2.52 | 2.47 | 2.38 | ft | USACE Calculation: ![Cross Section of Levee](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/calcs/hx.png) Substituting x<sub>zone</sub> for x |
+| Thickness of Blanket Under Excavation | z      | 16.55   | 14.55   | 10.05   | ft       | D<sub>b</sub> - d<sub>excavation</sub> |
 | Actual Gradient                                                  | i      | 0.15 | 0.17 | 0.24 | unitless | USACE Calculation: h<sub>x</sub> / z      |
 | Piping Factor of Safety                                             | F<sub>s</sub>     | 6.6    | 5.9 | 4.2 | unitless | USACE Calculation:  ![Cross Section of Levee](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/calcs/fs.png) |
 
@@ -247,7 +247,7 @@ Uplift pressure calculations were done using the USACE's guidelines for the comp
 |--------|--------|------|--------|--------|--------|--------------------|
 | Height of Hydraulic Gradient Above the Bottom of the Blanket | H1     | 20.8  | 20.8  | 20.7  | ft     | D<sub>b</sub> + h<sub>x</sub> |
 | Height of Blanket                                                       | H2     | 18.3  | 18.3  | 18.3  | ft     | D<sub>b</sub>                 |
-| Depth of Excavation Below Landside Levee Toe                                                   | H3     | 1.75   | 3.75   | 8.25   | ft     | D<sub>e</sub> |
+| Depth of Excavation Below Landside Levee Toe                                                   | H3     | 1.75   | 3.75   | 8.25   | ft     | d<sub>excavation</sub> |
 | Uplift Pressure at the base of structure                                | P3     | 124.3 | 265.5 | 581.8 | lb/ft2 | USACE Calculation: ![Cross Section of Levee](https://raw.githubusercontent.com/nathancolgate/corps-of-engineers-pool-report/master/calcs/p3.png) |
 
 ## Table 4: Uplift
@@ -281,7 +281,7 @@ A load comparison can be done to determine the factor of safety against floatati
 
 Based on the analyses provided in the above sections for underseepage and uplift forces, a modified pool design will be required in order to prevent uplift.
 
-The design for NSPs / ponds calls for lining the pool bottom with rocks. Using the calculations in Table 7, the _minimum_ depth of rock required in each zone was determined to meet or exceed the required factors of safety (Table 8).
+The design for NSPs / ponds calls for lining the pool bottom with rocks. Using the calculations in Table 7, the _minimum_ depth of rock required in each zone was determined in order to meet or exceed the required factors of safety.
 
 | Description | Symbol | Z<sub>regen</sub> | Z<sub>shallow</sub> | Z<sub>deep</sub> | UOM |
 |-------|-------|-------|-------|-------|-------|
