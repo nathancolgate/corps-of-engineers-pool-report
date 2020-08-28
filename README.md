@@ -41,7 +41,7 @@ Therefore, for this analysis, the pool was broken into three zones based on thei
 The following design values were used for this analysis.
 
 | Description | Symbol | Z<sub>regen</sub>  | Z<sub>shallow</sub>  | Z<sub>deep</sub>  | UOM    |
-|--------|--------|-------|------------------|-----------|--------|----------------------------|
+|--------|--------|-------|------------------|-----------|--------|
 | Depth of zone | d<sub>zone</sub> | 2.0 | 4.0  | 8.5 | ft |
 | Depth of zone excavation below toe of levee | d<sub>excavation</sub> | 1.75 | 3.75 | 8.25 | ft |
 | Location where uplift is calculated | x<sub>zone</sub> | 31.1 | 37.0 | 46.0 | ft |
